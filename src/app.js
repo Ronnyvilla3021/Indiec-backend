@@ -172,15 +172,6 @@ if (process.env.NODE_ENV === 'production') {
 app.use(session(sessionConfig));
 app.use(flash());
 
-// 11. CSRF Protection mejorada
-const csrfProtection = csrf({
-    cookie: {
-        httpOnly: true,
-        secure: process.env.NODE_ENV === 'production',
-        sameSite: 'strict'
-    }
-});
-app.use(csrfProtection);
 
 // 12. Headers de seguridad adicionales
 app.use((req, res, next) => {
@@ -258,6 +249,20 @@ app.use((req, res, next) => {
 // Importar y configurar rutas como API
 app.use(require('./router/index'))
 app.use('/pagina', require('./router/pagina.router'))
+app.use('/artista', require('./router/artista.router'))
+app.use('/cancion', require('./router/cancion.router'))
+app.use('/album', require('./router/album.router'))
+app.use('/disquera', require('./router/disquera.router'))
+app.use('/evento', require('./router/evento.router'))
+app.use('/ventas', require('./router/ventas.router'))
+app.use('/ropa', require('./router/ropa.router'))
+app.use('/carrito', require('./router/carrito.router'))
+app.use('/cliente', require('./router/cliente.router'))
+app.use('/grupo', require('./router/grupoMusical.router'))
+app.use('/manager', require('./router/manager.router'))
+app.use('/auxiliares', require('./router/auxiliares.router'))
+app.use('relaciones', require('./router/relaciones.router'))
+app.use('/auth', require('./router/auth.router'))
 
 // Configurar variables globales
 app.use((req, res, next) => {

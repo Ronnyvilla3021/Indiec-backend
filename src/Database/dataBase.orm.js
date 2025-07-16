@@ -62,12 +62,45 @@ const usuarioModel = require('../models/sql/usuario')
 const rolModel = require('../models/sql/rol')
 const detalleRolModel = require('../models/sql/detalleRol')
 const pageModel = require('../models/sql/page')
+const artistaModel = require('../models/sql/artista');
+const cancionModel = require('../models/sql/cancion');
+const albumModel = require('../models/sql/album');
+const grupoMusicalModel = require('../models/sql/grupoMusical');
+const managerModel = require('../models/sql/manager');
+const eventoModel = require('../models/sql/evento');
+const perfilDisqueraModel = require('../models/sql/perfilDisquera');
+const gestionArtistasModel = require('../models/sql/gestionArtistas');
+const registroVentasModel = require('../models/sql/registroVentas');
+const clienteModel = require('../models/sql/cliente');
+const ropaModel = require('../models/sql/ropa');
+const carritoModel = require('../models/sql/carrito');
+const artista_EventoModel = require("../models/sql/artista_evento");
+const generoModel = require("../models/sql/genero");
+const tallaModel = require("../models/sql/talla");
+const estadoModel = require("../models/sql/estado");
 
 //intaciar los modelos a sincronizar
 const usuario = usuarioModel(sequelize, Sequelize)
 const rol = rolModel(sequelize, Sequelize)
 const detalleRol = detalleRolModel(sequelize, Sequelize)
 const page = pageModel(sequelize, Sequelize)
+const artista = artistaModel(sequelize, Sequelize);
+const cancion = cancionModel(sequelize, Sequelize);
+const album = albumModel(sequelize, Sequelize);
+const grupoMusical = grupoMusicalModel(sequelize, Sequelize);
+const manager = managerModel(sequelize, Sequelize);
+const evento = eventoModel(sequelize, Sequelize);
+const perfilDisquera = perfilDisqueraModel(sequelize, Sequelize);
+const gestionArtistas = gestionArtistasModel(sequelize, Sequelize);
+const registroVentas = registroVentasModel(sequelize, Sequelize);
+const cliente = clienteModel(sequelize, Sequelize);
+const ropa = ropaModel(sequelize, Sequelize);
+const carrito = carritoModel(sequelize, Sequelize);
+const artista_Evento = artista_EventoModel(sequelize, Sequelize);
+const genero = generoModel(sequelize, Sequelize);
+const talla = tallaModel(sequelize, Sequelize);
+const estado = estadoModel(sequelize, Sequelize)
+
 
 //relaciones o foreingKeys
 
@@ -80,10 +113,63 @@ detalleRol.belongsTo(rol)
 usuario.hasMany(page)
 page.belongsTo(usuario)
 
+artista.hasMany(cancion);
+cancion.belongsTo(artista);
+
+artista.hasMany(album);
+album.belongsTo(artista);
+
+album.hasMany(cancion);
+cancion.belongsTo(album);
+
+manager.hasMany(artista);
+artista.belongsTo(manager);
+
+perfilDisquera.hasMany(gestionArtistas);
+gestionArtistas.belongsTo(perfilDisquera);
+
+cliente.hasMany(carrito);
+carrito.belongsTo(cliente);
+
+artista.hasMany(artista_Evento);
+artista_Evento.belongsTo(artista);
+
+evento.hasMany(artista_Evento);
+artista_Evento.belongsTo(evento);
+
+// Artistas y Grupos Musicales (muchos a muchos)
+artista.belongsToMany(grupoMusical, { 
+    through: 'artista_grupo_musical',
+    foreignKey: 'artistaId',
+    otherKey: 'grupoId'
+});
+grupoMusical.belongsToMany(artista, { 
+    through: 'artista_grupo_musical',
+    foreignKey: 'grupoId',
+    otherKey: 'artistaId'
+}); 
+
 // Exportar el objeto sequelize
 module.exports = {
-  usuario,
-  rol,
-  detalleRol,
-  page
+    usuario,
+    rol,
+    detalleRol,
+    page,
+    artista,
+    cancion,
+    album,
+    manager,
+    perfilDisquera,
+    gestionArtistas,
+    cliente,
+    carrito,
+    artista_Evento,
+    evento,
+    registroVentas,
+    ropa,
+    grupoMusical,
+    genero,
+    talla,
+    estado
+
 };

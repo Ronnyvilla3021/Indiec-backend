@@ -52,7 +52,23 @@ connectDB();
 
 // 5. Exportar modelos (ajusta las rutas según tu estructura)
 const pageModel = require('../models/mongo/page');
+const artistaModel = require('../models/mongo/artista');
+const cancionModel = require('../models/mongo/cancion');
+const albumModel = require('../models/mongo/album');
+const grupoMusicalModel = require('../models/mongo/grupoMusical');
+const managerModel = require('../models/mongo/manager');
+const eventoModel = require('../models/mongo/evento');
+const perfilDisqueraModel = require('../models/mongo/perfilDisquera');
+const clienteModel = require('../models/mongo/cliente');
 
 module.exports = {
   pageModel,
+  artistaModel,
+  cancionModel,
+  albumModel,
+  grupoMusical: grupoMusicalModel,
+  managerModel,
+  eventoModel,
+  perfilDisqueraModel,
+  clienteModel
 };

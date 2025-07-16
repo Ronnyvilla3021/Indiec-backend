@@ -4,7 +4,7 @@ const MYSQLPASSWORD = '';
 const MYSQLDATABASE = 'indiec';
 const MYSQLPORT = '3306';
 const MYSQL_URI = process.env.MYSQL_URI || '';
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/Leonardo';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/indiec';
 // Exportar las variables de configuración
 module.exports = {
     MYSQLHOST,

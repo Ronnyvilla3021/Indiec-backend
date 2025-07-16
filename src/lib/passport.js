@@ -59,6 +59,87 @@ const guardarYSubirArchivo = async (archivo, filePath, columnName, idEstudent, u
         });
     });
 };
+// Estrategia para registro de usuarios generales
+passport.use(
+    'local.Signup',
+    new LocalStrategy(
+        {
+            usernameField: 'userName',
+            passwordField: 'passwordUser',
+            passReqToCallback: true,
+        },
+        async (req, userName, passwordUser, done) => {
+            try {
+                // Verificar si el usuario ya existe
+                const [existingUsers] = await sql.promise().query('SELECT * FROM users WHERE userName = ? OR emailUser = ?', [userName, req.body.emailUser]);
+                
+                if (existingUsers.length > 0) {
+                    return done(null, false, { message: 'Username or email already exists' });
+                }
+
+                const {
+                    nameUsers,
+                    phoneUser,
+                    emailUser
+                } = req.body;
+
+                // Crear nuevo usuario usando ORM
+                const newUser = {
+                    nameUsers,
+                    phoneUser,
+                    emailUser,
+                    passwordUser, // En producción, usar bcrypt
+                    userName,
+                    stateUser: 'active',
+                    createUser: new Date().toLocaleString()
+                };
+
+                const savedUser = await orm.usuario.create(newUser);
+                newUser.idUser = savedUser.dataValues.idUser;
+                
+                return done(null, newUser);
+                
+            } catch (error) {
+                console.error('Registration error:', error);
+                return done(error);
+            }
+        }
+    )
+);
+
+// Estrategia para login de usuarios generales
+passport.use(
+    'local.Signin',
+    new LocalStrategy(
+        {
+            usernameField: 'username',
+            passwordField: 'password',
+            passReqToCallback: true,
+        },
+        async (req, username, password, done) => {
+            try {
+                const [users] = await sql.promise().query('SELECT * FROM users WHERE userName = ?', [username]);
+                
+                if (users.length === 0) {
+                    return done(null, false, { message: "Username does not exist" });
+                }
+                
+                const user = users[0];
+                
+                // Aquí deberías comparar con bcrypt si las contraseñas están hasheadas
+                if (password === user.passwordUser) {
+                    return done(null, user);
+                } else {
+                    return done(null, false, { message: "Incorrect password" });
+                }
+            } catch (error) {
+                return done(error);
+            }
+        }
+    )
+);
+
+
 
 passport.use(
     'local.teacherSignin',
