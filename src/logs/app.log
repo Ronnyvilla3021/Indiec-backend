@@ -3572,3 +3572,15 @@ Stack: Error: Unknown authentication strategy "local.Signup"
 2025-07-15 21:10:35 [INFO]: 🚀 MongoDB conectado correctamente
 2025-07-15 21:10:35 [INFO]: Conexión establecida con la base de datos
 2025-07-15 21:10:36 [INFO]: Base de Datos sincronizadas
+2025-07-15 21:11:39 [ERROR]: (node:17680) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-15 21:11:39 [ERROR]: (node:17680) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-15 21:11:39 [INFO]: El servidor está escuchando en el puerto 4500
+2025-07-15 21:11:39 [INFO]: Base de datos conectada
+2025-07-15 21:11:39 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 21:11:39 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 21:11:39 [INFO]: Conexión establecida con la base de datos
+2025-07-15 21:11:41 [INFO]: Base de Datos sincronizadas
+2025-07-15 21:11:42 [INFO]: [0mPOST /auth/register [32m201[0m 80.116 ms - 203[0m
+2025-07-15 21:12:17 [INFO]: [0mPOST /auth/login [32m200[0m 31.813 ms - 191[0m
+2025-07-15 21:12:32 [INFO]: [0mGET /auth/profile [32m200[0m 4.029 ms - 162[0m
