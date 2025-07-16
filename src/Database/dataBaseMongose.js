@@ -14,7 +14,7 @@ mongoose.connection.on('disconnected', () => {
   console.log('⚠️  Mongoose desconectado de MongoDB');
 });
 
-// 2. Función de conexión mejorada
+// 2. Función de conexión mejorada 
 const connectDB = async () => {
   try {
     // Codificar contraseña por si contiene caracteres especiales
@@ -22,8 +22,6 @@ const connectDB = async () => {
     const connectionURI = MONGODB_URI.replace('<PASSWORD>', encodedPassword);
 
     await mongoose.connect(connectionURI, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
       connectTimeoutMS: 10000, // 10 segundos de timeout
       socketTimeoutMS: 45000, // 45 segundos
     });
