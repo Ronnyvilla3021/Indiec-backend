@@ -32,11 +32,14 @@ app.set('port', process.env.PORT || 9000);
 
 // Habilitar CORS (configura según tus necesidades)
 app.use(cors({
-  origin: process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : '*',
+  origin: 'http://localhost:5173',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-CSRF-Token'],
   credentials: true
 }));
+
+app.options('*', cors());
+
 
 // ==================== CONFIGURACIÓN DE LOGS MEJORADA ====================
 
@@ -113,8 +116,8 @@ app.use(helmet());
 app.use(hpp());
 
 // 7. Limitar tamaño de payload
-app.use(express.json({ limit: '100kb' }));
-app.use(express.urlencoded({ extended: true, limit: '100kb' }));
+app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 // 8. Rate limiting para prevenir ataques de fuerza bruta
 const limiter = rateLimit({
@@ -245,9 +248,22 @@ app.use((req, res, next) => {
     next();
 });
 
+app.use((req, res, next) => {
+  console.log(`[${new Date().toISOString()}] ${req.method} ${req.originalUrl}`);
+  next();
+});
+
+
+// Configurar variables globales
+app.use((req, res, next) => {
+    app.locals.message = req.flash('message');
+    app.locals.success = req.flash('success');
+    app.locals.user = req.user || null;
+    next();
+});
+
 // ==================== RUTAS API ====================
 // Importar y configurar rutas como API
-app.use(require('./router/index'))
 app.use('/pagina', require('./router/pagina.router'))
 app.use('/artista', require('./router/artista.router'))
 app.use('/cancion', require('./router/cancion.router'))
@@ -261,16 +277,9 @@ app.use('/cliente', require('./router/cliente.router'))
 app.use('/grupo', require('./router/grupoMusical.router'))
 app.use('/manager', require('./router/manager.router'))
 app.use('/auxiliares', require('./router/auxiliares.router'))
-app.use('relaciones', require('./router/relaciones.router'))
+app.use('/relaciones', require('./router/relaciones.router'))
 app.use('/auth', require('./router/auth.router'))
-
-// Configurar variables globales
-app.use((req, res, next) => {
-    app.locals.message = req.flash('message');
-    app.locals.success = req.flash('success');
-    app.locals.user = req.user || null;
-    next();
-});
+app.use('/', require('./router/index'))
 
 // ==================== MANEJO DE ERRORES ====================
 

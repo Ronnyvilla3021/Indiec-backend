@@ -1,8 +1,12 @@
-const express = require("express");
+// src/router/index.router.js
+const express = require('express');
 const router = express.Router();
 
-const {mostrarMensaje} = require('../controller/index.controller')
+// Esta es una ruta de bienvenida normal. NO envía "hola mundo".
+router.get('/', (req, res) => {
+    res.json({ message: 'Bienvenido a la API de Indiec' });
+});
 
-router.get('/', mostrarMensaje)
+// Asegúrate de que no haya otras rutas conflictivas aquí.
 
-module.exports = router
+module.exports = router;

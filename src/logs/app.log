@@ -1,0 +1,1181 @@
+2025-07-29 19:09:01 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 19:09:02 [INFO]: Base de datos conectada
+2025-07-29 19:09:03 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 19:09:03 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 19:09:04 [INFO]: Conexión establecida con la base de datos
+2025-07-29 19:09:44 [INFO]: [2025-07-30T00:09:44.108Z] POST /auth/register
+2025-07-29 19:09:46 [INFO]: [0mPOST /auth/register [32m201[0m 1862.920 ms - 186[0m
+2025-07-29 19:09:52 [INFO]: Base de Datos sincronizadas
+2025-07-29 19:09:58 [INFO]: [2025-07-30T00:09:58.249Z] POST /auth/login
+2025-07-29 19:09:59 [INFO]: [0mPOST /auth/login [32m200[0m 1282.396 ms - 174[0m
+2025-07-29 19:10:02 [INFO]: [2025-07-30T00:10:02.036Z] GET /canciones/lista
+2025-07-29 19:10:02 [WARN]: 404 Not Found: /canciones/lista
+2025-07-29 19:10:02 [INFO]: [2025-07-30T00:10:02.053Z] GET /canciones/lista
+2025-07-29 19:10:02 [WARN]: 404 Not Found: /canciones/lista
+2025-07-29 19:10:02 [INFO]: [0mGET /canciones/lista [33m404[0m 7.439 ms - 62[0m
+2025-07-29 19:10:02 [INFO]: [0mGET /canciones/lista [33m404[0m 13.106 ms - 62[0m
+2025-07-29 19:10:04 [INFO]: [2025-07-30T00:10:04.979Z] GET /grupos/lista
+2025-07-29 19:10:04 [WARN]: 404 Not Found: /grupos/lista
+2025-07-29 19:10:05 [INFO]: [2025-07-30T00:10:05.016Z] GET /grupos/lista
+2025-07-29 19:10:05 [WARN]: 404 Not Found: /grupos/lista
+2025-07-29 19:10:05 [INFO]: [0mGET /grupos/lista [33m404[0m 24.415 ms - 62[0m
+2025-07-29 19:10:05 [INFO]: [0mGET /grupos/lista [33m404[0m 3.273 ms - 62[0m
+2025-07-29 19:10:06 [INFO]: [2025-07-30T00:10:06.798Z] GET /album/lista
+2025-07-29 19:10:07 [INFO]: [2025-07-30T00:10:07.500Z] GET /album/lista
+2025-07-29 19:10:07 [INFO]: [0mGET /album/lista [32m200[0m 698.406 ms - 442[0m
+2025-07-29 19:10:08 [INFO]: [0mGET /album/lista [36m304[0m 707.329 ms - -[0m
+2025-07-29 19:10:11 [INFO]: [2025-07-30T00:10:11.663Z] GET /manager/lista
+2025-07-29 19:10:11 [INFO]: [2025-07-30T00:10:11.840Z] GET /manager/lista
+2025-07-29 19:10:12 [INFO]: [0mGET /manager/lista [32m200[0m 173.673 ms - 2[0m
+2025-07-29 19:10:12 [INFO]: [0mGET /manager/lista [36m304[0m 235.219 ms - -[0m
+2025-07-29 19:10:13 [INFO]: [2025-07-30T00:10:13.273Z] GET /eventos/lista
+2025-07-29 19:10:13 [WARN]: 404 Not Found: /eventos/lista
+2025-07-29 19:10:13 [INFO]: [2025-07-30T00:10:13.278Z] GET /eventos/lista
+2025-07-29 19:10:13 [WARN]: 404 Not Found: /eventos/lista
+2025-07-29 19:10:13 [INFO]: [0mGET /eventos/lista [33m404[0m 2.971 ms - 62[0m
+2025-07-29 19:10:13 [INFO]: [0mGET /eventos/lista [33m404[0m 3.750 ms - 62[0m
+2025-07-29 19:10:15 [INFO]: [2025-07-30T00:10:15.034Z] GET /manager/lista
+2025-07-29 19:10:16 [INFO]: [0mGET /manager/lista [36m304[0m 1032.699 ms - -[0m
+2025-07-29 19:10:16 [INFO]: [2025-07-30T00:10:16.299Z] GET /manager/lista
+2025-07-29 19:10:16 [INFO]: [0mGET /manager/lista [36m304[0m 225.919 ms - -[0m
+2025-07-29 19:11:17 [INFO]: [2025-07-30T00:11:17.361Z] GET /canciones/lista
+2025-07-29 19:11:17 [WARN]: 404 Not Found: /canciones/lista
+2025-07-29 19:11:17 [INFO]: [2025-07-30T00:11:17.366Z] GET /canciones/lista
+2025-07-29 19:11:17 [WARN]: 404 Not Found: /canciones/lista
+2025-07-29 19:11:17 [INFO]: [0mGET /canciones/lista [33m404[0m 2.429 ms - 62[0m
+2025-07-29 19:11:17 [INFO]: [0mGET /canciones/lista [33m404[0m 5.927 ms - 62[0m
+2025-07-29 19:11:18 [INFO]: [2025-07-30T00:11:18.986Z] GET /grupos/lista
+2025-07-29 19:11:18 [WARN]: 404 Not Found: /grupos/lista
+2025-07-29 19:11:18 [INFO]: [2025-07-30T00:11:18.992Z] GET /grupos/lista
+2025-07-29 19:11:18 [WARN]: 404 Not Found: /grupos/lista
+2025-07-29 19:11:19 [INFO]: [0mGET /grupos/lista [33m404[0m 2.972 ms - 62[0m
+2025-07-29 19:11:19 [INFO]: [0mGET /grupos/lista [33m404[0m 2.484 ms - 62[0m
+2025-07-29 19:11:20 [INFO]: [2025-07-30T00:11:20.626Z] GET /album/lista
+2025-07-29 19:11:21 [INFO]: [0mGET /album/lista [36m304[0m 463.290 ms - -[0m
+2025-07-29 19:11:21 [INFO]: [2025-07-30T00:11:21.294Z] GET /album/lista
+2025-07-29 19:11:21 [INFO]: [0mGET /album/lista [36m304[0m 409.157 ms - -[0m
+2025-07-29 19:11:24 [INFO]: [2025-07-30T00:11:24.454Z] GET /manager/lista
+2025-07-29 19:11:24 [INFO]: [0mGET /manager/lista [36m304[0m 244.740 ms - -[0m
+2025-07-29 19:11:24 [INFO]: [2025-07-30T00:11:24.983Z] GET /manager/lista
+2025-07-29 19:11:25 [INFO]: [0mGET /manager/lista [36m304[0m 201.089 ms - -[0m
+2025-07-29 19:11:25 [INFO]: [2025-07-30T00:11:25.908Z] GET /eventos/lista
+2025-07-29 19:11:25 [WARN]: 404 Not Found: /eventos/lista
+2025-07-29 19:11:25 [INFO]: [2025-07-30T00:11:25.918Z] GET /eventos/lista
+2025-07-29 19:11:25 [WARN]: 404 Not Found: /eventos/lista
+2025-07-29 19:11:26 [INFO]: [0mGET /eventos/lista [33m404[0m 6.674 ms - 62[0m
+2025-07-29 19:11:26 [INFO]: [0mGET /eventos/lista [33m404[0m 2.850 ms - 62[0m
+2025-07-29 19:11:27 [INFO]: [2025-07-30T00:11:27.368Z] GET /manager/lista
+2025-07-29 19:11:27 [INFO]: [0mGET /manager/lista [36m304[0m 171.526 ms - -[0m
+2025-07-29 19:11:27 [INFO]: [2025-07-30T00:11:27.774Z] GET /manager/lista
+2025-07-29 19:11:28 [INFO]: [0mGET /manager/lista [36m304[0m 177.093 ms - -[0m
+2025-07-29 19:18:02 [INFO]: [2025-07-30T00:18:02.365Z] GET /album/lista
+2025-07-29 19:18:02 [INFO]: [0mGET /album/lista [36m304[0m 448.176 ms - -[0m
+2025-07-29 19:18:02 [INFO]: [2025-07-30T00:18:02.994Z] GET /album/lista
+2025-07-29 19:18:03 [INFO]: [0mGET /album/lista [36m304[0m 530.438 ms - -[0m
+2025-07-29 19:19:09 [INFO]: [2025-07-30T00:19:09.722Z] GET /album/lista
+2025-07-29 19:19:10 [INFO]: [0mGET /album/lista [36m304[0m 492.166 ms - -[0m
+2025-07-29 19:19:10 [INFO]: [2025-07-30T00:19:10.325Z] GET /album/lista
+2025-07-29 19:19:11 [INFO]: [0mGET /album/lista [36m304[0m 481.418 ms - -[0m
+2025-07-29 19:19:11 [INFO]: [2025-07-30T00:19:11.212Z] GET /album/lista
+2025-07-29 19:19:11 [INFO]: [0mGET /album/lista [36m304[0m 423.536 ms - -[0m
+2025-07-29 19:20:06 [INFO]: [2025-07-30T00:20:06.552Z] POST /album/crear
+2025-07-29 19:20:07 [INFO]: [0mPOST /album/crear [32m201[0m 795.349 ms - 76[0m
+2025-07-29 19:20:07 [INFO]: [2025-07-30T00:20:07.684Z] GET /album/lista
+2025-07-29 19:20:08 [INFO]: [0mGET /album/lista [32m200[0m 471.960 ms - 736[0m
+2025-07-29 19:23:09 [INFO]: [2025-07-30T00:23:09.808Z] GET /manager/lista
+2025-07-29 19:23:10 [INFO]: [0mGET /manager/lista [36m304[0m 304.948 ms - -[0m
+2025-07-29 19:23:10 [INFO]: [2025-07-30T00:23:10.347Z] GET /manager/lista
+2025-07-29 19:23:10 [INFO]: [0mGET /manager/lista [36m304[0m 304.024 ms - -[0m
+2025-07-29 19:23:23 [INFO]: [2025-07-30T00:23:23.190Z] POST /manager/crear
+2025-07-29 19:23:23 [INFO]: [0mPOST /manager/crear [32m201[0m 441.662 ms - 55[0m
+2025-07-29 19:23:23 [INFO]: [2025-07-30T00:23:23.967Z] GET /manager/lista
+2025-07-29 19:23:24 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 19:23:24 [INFO]: [0mGET /manager/lista [31m500[0m 177.953 ms - 109[0m
+2025-07-29 19:31:44 [INFO]: [2025-07-30T00:31:44.555Z] GET /album/lista
+2025-07-29 19:31:45 [INFO]: [0mGET /album/lista [36m304[0m 241.363 ms - -[0m
+2025-07-29 19:31:45 [INFO]: [2025-07-30T00:31:45.118Z] GET /album/lista
+2025-07-29 19:31:45 [INFO]: [0mGET /album/lista [36m304[0m 484.174 ms - -[0m
+2025-07-29 19:32:09 [INFO]: [2025-07-30T00:32:09.416Z] POST /album/crear
+2025-07-29 19:32:10 [INFO]: [0mPOST /album/crear [32m201[0m 455.812 ms - 76[0m
+2025-07-29 19:32:10 [INFO]: [2025-07-30T00:32:10.093Z] GET /album/lista
+2025-07-29 19:32:10 [INFO]: [0mGET /album/lista [32m200[0m 505.628 ms - -[0m
+2025-07-29 19:32:50 [INFO]: [2025-07-30T00:32:50.363Z] PUT /album/actualizar/5
+2025-07-29 19:32:50 [WARN]: 404 Not Found: /album/actualizar/5
+2025-07-29 19:32:50 [INFO]: [0mPUT /album/actualizar/5 [33m404[0m 3.953 ms - 62[0m
+2025-07-29 19:33:29 [INFO]: [2025-07-30T00:33:29.730Z] GET /album/lista
+2025-07-29 19:33:30 [INFO]: [0mGET /album/lista [36m304[0m 450.503 ms - -[0m
+2025-07-29 19:33:33 [INFO]: [2025-07-30T00:33:33.765Z] GET /album/lista
+2025-07-29 19:33:34 [INFO]: [0mGET /album/lista [36m304[0m 280.433 ms - -[0m
+2025-07-29 19:33:34 [INFO]: [2025-07-30T00:33:34.263Z] GET /album/lista
+2025-07-29 19:33:34 [INFO]: [0mGET /album/lista [36m304[0m 223.139 ms - -[0m
+2025-07-29 19:33:41 [INFO]: [2025-07-30T00:33:41.151Z] GET /album/lista
+2025-07-29 19:33:41 [INFO]: [0mGET /album/lista [36m304[0m 375.778 ms - -[0m
+2025-07-29 19:33:41 [INFO]: [2025-07-30T00:33:41.650Z] GET /album/lista
+2025-07-29 19:33:42 [INFO]: [0mGET /album/lista [36m304[0m 297.437 ms - -[0m
+2025-07-29 19:33:43 [INFO]: [2025-07-30T00:33:43.927Z] GET /album/lista
+2025-07-29 19:33:44 [INFO]: [0mGET /album/lista [36m304[0m 293.118 ms - -[0m
+2025-07-29 19:33:57 [INFO]: [2025-07-30T00:33:57.437Z] POST /album/crear
+2025-07-29 19:33:58 [INFO]: [0mPOST /album/crear [32m201[0m 572.520 ms - 76[0m
+2025-07-29 19:33:58 [INFO]: [2025-07-30T00:33:58.426Z] GET /album/lista
+2025-07-29 19:33:59 [INFO]: [0mGET /album/lista [32m200[0m 499.687 ms - -[0m
+2025-07-29 19:51:25 [INFO]: [2025-07-30T00:51:25.749Z] GET /album/lista
+2025-07-29 19:51:26 [INFO]: [0mGET /album/lista [36m304[0m 368.215 ms - -[0m
+2025-07-29 19:51:35 [INFO]: [2025-07-30T00:51:35.031Z] GET /album/lista
+2025-07-29 19:51:35 [INFO]: [0mGET /album/lista [36m304[0m 471.066 ms - -[0m
+2025-07-29 19:51:35 [INFO]: [2025-07-30T00:51:35.709Z] GET /album/lista
+2025-07-29 19:51:37 [INFO]: [0mGET /album/lista [36m304[0m 1284.529 ms - -[0m
+2025-07-29 19:51:49 [INFO]: [2025-07-30T00:51:49.775Z] GET /album/lista
+2025-07-29 19:51:50 [INFO]: [2025-07-30T00:51:50.279Z] GET /album/lista
+2025-07-29 19:51:50 [INFO]: [0mGET /album/lista [32m200[0m 496.669 ms - 442[0m
+2025-07-29 19:51:50 [INFO]: [0mGET /album/lista [36m304[0m 474.386 ms - -[0m
+2025-07-29 19:51:59 [INFO]: [2025-07-30T00:51:59.517Z] GET /manager/lista
+2025-07-29 19:52:00 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 19:52:00 [INFO]: [2025-07-30T00:52:00.037Z] GET /manager/lista
+2025-07-29 19:52:00 [INFO]: [0mGET /manager/lista [31m500[0m 512.982 ms - 109[0m
+2025-07-29 19:52:00 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 19:52:00 [INFO]: [0mGET /manager/lista [31m500[0m 150.672 ms - 109[0m
+2025-07-29 19:52:07 [INFO]: [2025-07-30T00:52:07.637Z] GET /album/lista
+2025-07-29 19:52:08 [INFO]: [0mGET /album/lista [36m304[0m 707.449 ms - -[0m
+2025-07-29 19:52:08 [INFO]: [2025-07-30T00:52:08.682Z] GET /album/lista
+2025-07-29 19:52:09 [INFO]: [0mGET /album/lista [36m304[0m 509.703 ms - -[0m
+2025-07-29 19:52:11 [INFO]: [2025-07-30T00:52:11.889Z] GET /album/lista
+2025-07-29 19:52:12 [INFO]: [0mGET /album/lista [36m304[0m 471.153 ms - -[0m
+2025-07-29 19:52:12 [INFO]: [2025-07-30T00:52:12.678Z] GET /album/lista
+2025-07-29 19:52:13 [INFO]: [0mGET /album/lista [36m304[0m 506.496 ms - -[0m
+2025-07-29 19:52:31 [INFO]: [2025-07-30T00:52:31.563Z] GET /manager/lista
+2025-07-29 19:52:31 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 19:52:31 [INFO]: [2025-07-30T00:52:31.928Z] GET /manager/lista
+2025-07-29 19:52:32 [INFO]: [0mGET /manager/lista [31m500[0m 361.109 ms - 109[0m
+2025-07-29 19:52:32 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 19:52:32 [INFO]: [0mGET /manager/lista [31m500[0m 332.419 ms - 109[0m
+2025-07-29 19:52:33 [INFO]: [2025-07-30T00:52:33.730Z] GET /album/lista
+2025-07-29 19:52:34 [INFO]: [0mGET /album/lista [36m304[0m 549.179 ms - -[0m
+2025-07-29 19:52:34 [INFO]: [2025-07-30T00:52:34.460Z] GET /album/lista
+2025-07-29 19:52:35 [INFO]: [0mGET /album/lista [36m304[0m 767.556 ms - -[0m
+2025-07-29 19:54:02 [INFO]: [2025-07-30T00:54:02.721Z] GET /album/lista
+2025-07-29 19:54:03 [INFO]: [0mGET /album/lista [36m304[0m 542.924 ms - -[0m
+2025-07-29 19:54:03 [INFO]: [2025-07-30T00:54:03.577Z] GET /album/lista
+2025-07-29 19:54:04 [INFO]: [0mGET /album/lista [36m304[0m 506.359 ms - -[0m
+2025-07-29 19:54:09 [INFO]: [2025-07-30T00:54:09.717Z] GET /album/lista
+2025-07-29 19:54:10 [INFO]: [0mGET /album/lista [36m304[0m 292.108 ms - -[0m
+2025-07-29 19:54:56 [INFO]: [2025-07-30T00:54:56.316Z] GET /eventos/lista
+2025-07-29 19:54:56 [WARN]: 404 Not Found: /eventos/lista
+2025-07-29 19:54:56 [INFO]: [2025-07-30T00:54:56.323Z] GET /eventos/lista
+2025-07-29 19:54:56 [WARN]: 404 Not Found: /eventos/lista
+2025-07-29 19:54:56 [INFO]: [0mGET /eventos/lista [33m404[0m 4.196 ms - 62[0m
+2025-07-29 19:54:56 [INFO]: [0mGET /eventos/lista [33m404[0m 3.292 ms - 62[0m
+2025-07-29 20:02:20 [INFO]: [2025-07-30T01:02:20.593Z] GET /eventos/lista
+2025-07-29 20:02:20 [WARN]: 404 Not Found: /eventos/lista
+2025-07-29 20:02:20 [INFO]: [2025-07-30T01:02:20.598Z] GET /eventos/lista
+2025-07-29 20:02:20 [WARN]: 404 Not Found: /eventos/lista
+2025-07-29 20:02:20 [INFO]: [0mGET /eventos/lista [33m404[0m 2.249 ms - 62[0m
+2025-07-29 20:02:20 [INFO]: [0mGET /eventos/lista [33m404[0m 1.825 ms - 62[0m
+2025-07-29 20:38:55 [INFO]: ⚠️  Mongoose desconectado de MongoDB
+2025-07-29 20:39:04 [WARN]: Server too busy!
+2025-07-29 20:39:04 [INFO]: [0mGET /eventos/lista [31m503[0m 1.089 ms - 52[0m
+2025-07-29 20:39:04 [WARN]: Server too busy!
+2025-07-29 20:39:04 [INFO]: [0mGET /eventos/lista [31m503[0m 0.591 ms - 52[0m
+2025-07-29 20:39:06 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 20:40:45 [INFO]: [2025-07-30T01:40:45.724Z] GET /eventos/lista
+2025-07-29 20:40:45 [WARN]: 404 Not Found: /eventos/lista
+2025-07-29 20:40:45 [INFO]: [0mGET /eventos/lista [33m404[0m 2.774 ms - 62[0m
+2025-07-29 20:40:53 [INFO]: [2025-07-30T01:40:53.363Z] GET /album/lista
+2025-07-29 20:40:53 [INFO]: [0mGET /album/lista [36m304[0m 499.136 ms - -[0m
+2025-07-29 20:40:53 [INFO]: [2025-07-30T01:40:53.969Z] GET /album/lista
+2025-07-29 20:40:54 [INFO]: [0mGET /album/lista [36m304[0m 203.267 ms - -[0m
+2025-07-29 20:50:53 [INFO]: [2025-07-30T01:50:53.838Z] GET /eventos/lista
+2025-07-29 20:50:53 [WARN]: 404 Not Found: /eventos/lista
+2025-07-29 20:50:53 [INFO]: [2025-07-30T01:50:53.880Z] GET /eventos/lista
+2025-07-29 20:50:53 [WARN]: 404 Not Found: /eventos/lista
+2025-07-29 20:50:53 [INFO]: [0mGET /eventos/lista [33m404[0m 36.993 ms - 62[0m
+2025-07-29 20:50:53 [INFO]: [0mGET /eventos/lista [33m404[0m 3.730 ms - 62[0m
+2025-07-29 20:50:56 [INFO]: [2025-07-30T01:50:56.415Z] GET /eventos/lista
+2025-07-29 20:50:56 [WARN]: 404 Not Found: /eventos/lista
+2025-07-29 20:50:56 [INFO]: [2025-07-30T01:50:56.422Z] GET /eventos/lista
+2025-07-29 20:50:56 [WARN]: 404 Not Found: /eventos/lista
+2025-07-29 20:50:56 [INFO]: [0mGET /eventos/lista [33m404[0m 4.840 ms - 62[0m
+2025-07-29 20:50:56 [INFO]: [0mGET /eventos/lista [33m404[0m 4.816 ms - 62[0m
+2025-07-29 20:51:08 [INFO]: [2025-07-30T01:51:08.001Z] GET /evento/lista
+2025-07-29 20:51:08 [INFO]: [0mGET /evento/lista [32m200[0m 109.567 ms - 69[0m
+2025-07-29 20:51:27 [INFO]: [2025-07-30T01:51:27.062Z] POST /evento/crear
+2025-07-29 20:51:27 [INFO]: [0mPOST /evento/crear [32m201[0m 330.686 ms - 77[0m
+2025-07-29 20:51:27 [INFO]: [2025-07-30T01:51:27.509Z] GET /evento/lista
+2025-07-29 20:51:27 [INFO]: [0mGET /evento/lista [32m200[0m 201.201 ms - 452[0m
+2025-07-29 20:54:30 [INFO]: [2025-07-30T01:54:30.057Z] GET /canciones/lista
+2025-07-29 20:54:30 [WARN]: 404 Not Found: /canciones/lista
+2025-07-29 20:54:30 [INFO]: [2025-07-30T01:54:30.073Z] GET /canciones/lista
+2025-07-29 20:54:30 [WARN]: 404 Not Found: /canciones/lista
+2025-07-29 20:54:30 [INFO]: [0mGET /canciones/lista [33m404[0m 7.893 ms - 62[0m
+2025-07-29 20:54:30 [INFO]: [0mGET /canciones/lista [33m404[0m 2.574 ms - 62[0m
+2025-07-29 20:54:32 [INFO]: [2025-07-30T01:54:32.225Z] GET /album/lista
+2025-07-29 20:54:32 [INFO]: [0mGET /album/lista [36m304[0m 224.999 ms - -[0m
+2025-07-29 20:54:32 [INFO]: [2025-07-30T01:54:32.559Z] GET /album/lista
+2025-07-29 20:54:32 [INFO]: [0mGET /album/lista [36m304[0m 205.521 ms - -[0m
+2025-07-29 20:56:53 [INFO]: [2025-07-30T01:56:53.945Z] GET /album/lista
+2025-07-29 20:56:54 [INFO]: [0mGET /album/lista [36m304[0m 209.977 ms - -[0m
+2025-07-29 20:56:54 [INFO]: [2025-07-30T01:56:54.263Z] GET /album/lista
+2025-07-29 20:56:54 [INFO]: [0mGET /album/lista [36m304[0m 198.893 ms - -[0m
+2025-07-29 20:56:55 [INFO]: [2025-07-30T01:56:55.940Z] GET /album/lista
+2025-07-29 20:56:56 [INFO]: [0mGET /album/lista [36m304[0m 199.682 ms - -[0m
+2025-07-29 20:56:56 [INFO]: [2025-07-30T01:56:56.249Z] GET /album/lista
+2025-07-29 20:56:56 [INFO]: [0mGET /album/lista [36m304[0m 200.618 ms - -[0m
+2025-07-29 20:56:59 [INFO]: [2025-07-30T01:56:59.324Z] GET /album/lista
+2025-07-29 20:56:59 [INFO]: [0mGET /album/lista [36m304[0m 200.527 ms - -[0m
+2025-07-29 20:56:59 [INFO]: [2025-07-30T01:56:59.658Z] GET /album/lista
+2025-07-29 20:56:59 [INFO]: [0mGET /album/lista [36m304[0m 220.147 ms - -[0m
+2025-07-29 20:59:15 [INFO]: [2025-07-30T01:59:15.729Z] GET /album/lista
+2025-07-29 20:59:16 [INFO]: [0mGET /album/lista [36m304[0m 230.644 ms - -[0m
+2025-07-29 20:59:16 [INFO]: [2025-07-30T01:59:16.086Z] GET /album/lista
+2025-07-29 20:59:16 [INFO]: [0mGET /album/lista [36m304[0m 200.745 ms - -[0m
+2025-07-29 20:59:18 [INFO]: [2025-07-30T01:59:18.255Z] GET /album/lista
+2025-07-29 20:59:18 [INFO]: [0mGET /album/lista [36m304[0m 198.941 ms - -[0m
+2025-07-29 20:59:21 [INFO]: [2025-07-30T01:59:21.995Z] GET /album/lista
+2025-07-29 20:59:22 [INFO]: [0mGET /album/lista [36m304[0m 215.447 ms - -[0m
+2025-07-29 20:59:22 [INFO]: [2025-07-30T01:59:22.319Z] GET /album/lista
+2025-07-29 20:59:22 [INFO]: [0mGET /album/lista [36m304[0m 203.421 ms - -[0m
+2025-07-29 20:59:38 [INFO]: [2025-07-30T01:59:38.608Z] POST /album/crear
+2025-07-29 20:59:38 [INFO]: [0mPOST /album/crear [32m201[0m 231.281 ms - 76[0m
+2025-07-29 20:59:38 [INFO]: [2025-07-30T01:59:38.970Z] GET /album/lista
+2025-07-29 20:59:39 [INFO]: [0mGET /album/lista [32m200[0m 510.102 ms - 736[0m
+2025-07-29 20:59:54 [INFO]: [2025-07-30T01:59:54.676Z] POST /album/crear
+2025-07-29 20:59:54 [INFO]: [0mPOST /album/crear [32m201[0m 210.996 ms - 77[0m
+2025-07-29 20:59:55 [INFO]: [2025-07-30T01:59:55.021Z] GET /album/lista
+2025-07-29 20:59:55 [INFO]: [0mGET /album/lista [32m200[0m 566.780 ms - -[0m
+2025-07-29 21:00:06 [INFO]: [2025-07-30T02:00:06.567Z] GET /album/lista
+2025-07-29 21:00:07 [INFO]: [0mGET /album/lista [36m304[0m 320.953 ms - -[0m
+2025-07-29 21:04:42 [INFO]: [2025-07-30T02:04:42.012Z] GET /album/lista
+2025-07-29 21:04:42 [INFO]: [0mGET /album/lista [36m304[0m 259.359 ms - -[0m
+2025-07-29 21:04:42 [INFO]: [2025-07-30T02:04:42.380Z] GET /album/lista
+2025-07-29 21:04:42 [INFO]: [0mGET /album/lista [36m304[0m 229.546 ms - -[0m
+2025-07-29 21:07:16 [INFO]: [2025-07-30T02:07:16.026Z] GET /grupos/lista
+2025-07-29 21:07:16 [WARN]: 404 Not Found: /grupos/lista
+2025-07-29 21:07:16 [INFO]: [2025-07-30T02:07:16.047Z] GET /grupos/lista
+2025-07-29 21:07:16 [WARN]: 404 Not Found: /grupos/lista
+2025-07-29 21:07:16 [INFO]: [0mGET /grupos/lista [33m404[0m 9.913 ms - 62[0m
+2025-07-29 21:07:16 [INFO]: [0mGET /grupos/lista [33m404[0m 18.254 ms - 62[0m
+2025-07-29 21:07:27 [INFO]: [2025-07-30T02:07:27.560Z] GET /grupo/lista
+2025-07-29 21:07:27 [INFO]: [0mGET /grupo/lista [32m200[0m 109.627 ms - 2[0m
+2025-07-29 21:07:28 [INFO]: [2025-07-30T02:07:28.691Z] GET /grupo/lista
+2025-07-29 21:07:28 [INFO]: [0mGET /grupo/lista [36m304[0m 108.256 ms - -[0m
+2025-07-29 21:07:28 [INFO]: [2025-07-30T02:07:28.907Z] GET /grupo/lista
+2025-07-29 21:07:29 [INFO]: [0mGET /grupo/lista [36m304[0m 104.631 ms - -[0m
+2025-07-29 21:07:43 [INFO]: [2025-07-30T02:07:43.083Z] POST /grupo/crear
+2025-07-29 21:07:43 [INFO]: [0mPOST /grupo/crear [32m201[0m 353.634 ms - 59[0m
+2025-07-29 21:07:43 [INFO]: [2025-07-30T02:07:43.569Z] GET /grupo/lista
+2025-07-29 21:07:43 [INFO]: [0mGET /grupo/lista [32m200[0m 217.637 ms - 300[0m
+2025-07-29 21:11:51 [INFO]: [2025-07-30T02:11:51.255Z] GET /manager/lista
+2025-07-29 21:11:51 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:11:51 [INFO]: [2025-07-30T02:11:51.374Z] GET /manager/lista
+2025-07-29 21:11:51 [INFO]: [0mGET /manager/lista [31m500[0m 116.922 ms - 109[0m
+2025-07-29 21:11:51 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:11:51 [INFO]: [0mGET /manager/lista [31m500[0m 109.773 ms - 109[0m
+2025-07-29 21:11:53 [INFO]: [2025-07-30T02:11:53.684Z] GET /manager/lista
+2025-07-29 21:11:53 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:11:53 [INFO]: [2025-07-30T02:11:53.798Z] GET /manager/lista
+2025-07-29 21:11:53 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:11:53 [INFO]: [0mGET /manager/lista [31m500[0m 112.892 ms - 109[0m
+2025-07-29 21:11:54 [INFO]: [0mGET /manager/lista [31m500[0m 105.849 ms - 109[0m
+2025-07-29 21:12:02 [INFO]: [2025-07-30T02:12:02.999Z] GET /managers/lista
+2025-07-29 21:12:02 [WARN]: 404 Not Found: /managers/lista
+2025-07-29 21:12:03 [INFO]: [0mGET /managers/lista [33m404[0m 1.599 ms - 62[0m
+2025-07-29 21:12:05 [INFO]: [2025-07-30T02:12:05.583Z] GET /manager/lista
+2025-07-29 21:12:05 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:12:05 [INFO]: [0mGET /manager/lista [31m500[0m 110.246 ms - 109[0m
+2025-07-29 21:12:20 [INFO]: [2025-07-30T02:12:20.634Z] POST /manager/crear
+2025-07-29 21:12:20 [INFO]: [0mPOST /manager/crear [32m201[0m 242.826 ms - 55[0m
+2025-07-29 21:12:21 [INFO]: [2025-07-30T02:12:21.008Z] GET /manager/lista
+2025-07-29 21:12:21 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:12:21 [INFO]: [0mGET /manager/lista [31m500[0m 108.203 ms - 109[0m
+2025-07-29 21:12:32 [INFO]: [2025-07-30T02:12:32.896Z] GET /canciones/lista
+2025-07-29 21:12:32 [WARN]: 404 Not Found: /canciones/lista
+2025-07-29 21:12:32 [INFO]: [2025-07-30T02:12:32.901Z] GET /canciones/lista
+2025-07-29 21:12:32 [WARN]: 404 Not Found: /canciones/lista
+2025-07-29 21:12:33 [INFO]: [0mGET /canciones/lista [33m404[0m 1.840 ms - 62[0m
+2025-07-29 21:12:33 [INFO]: [0mGET /canciones/lista [33m404[0m 2.413 ms - 62[0m
+2025-07-29 21:15:54 [INFO]: [2025-07-30T02:15:54.720Z] GET /canciones/lista
+2025-07-29 21:15:54 [WARN]: 404 Not Found: /canciones/lista
+2025-07-29 21:15:54 [INFO]: [0mGET /canciones/lista [33m404[0m 1.510 ms - 62[0m
+2025-07-29 21:16:12 [INFO]: [2025-07-30T02:16:12.801Z] GET /cancion/lista
+2025-07-29 21:16:13 [INFO]: [0mGET /cancion/lista [32m200[0m 219.109 ms - 321[0m
+2025-07-29 21:16:17 [INFO]: [2025-07-30T02:16:17.435Z] GET /cancion/lista
+2025-07-29 21:16:17 [INFO]: [0mGET /cancion/lista [36m304[0m 216.547 ms - -[0m
+2025-07-29 21:16:17 [INFO]: [2025-07-30T02:16:17.759Z] GET /cancion/lista
+2025-07-29 21:16:18 [INFO]: [0mGET /cancion/lista [36m304[0m 215.360 ms - -[0m
+2025-07-29 21:16:28 [INFO]: [2025-07-30T02:16:28.118Z] GET /evento/lista
+2025-07-29 21:16:28 [INFO]: [0mGET /evento/lista [36m304[0m 222.942 ms - -[0m
+2025-07-29 21:16:28 [INFO]: [2025-07-30T02:16:28.451Z] GET /evento/lista
+2025-07-29 21:16:28 [INFO]: [0mGET /evento/lista [36m304[0m 216.458 ms - -[0m
+2025-07-29 21:16:29 [INFO]: [2025-07-30T02:16:29.727Z] GET /manager/lista
+2025-07-29 21:16:29 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:16:29 [INFO]: [2025-07-30T02:16:29.840Z] GET /manager/lista
+2025-07-29 21:16:29 [INFO]: [0mGET /manager/lista [31m500[0m 110.535 ms - 109[0m
+2025-07-29 21:16:29 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:16:30 [INFO]: [0mGET /manager/lista [31m500[0m 108.062 ms - 109[0m
+2025-07-29 21:16:32 [INFO]: [2025-07-30T02:16:32.925Z] GET /album/lista
+2025-07-29 21:16:33 [INFO]: [0mGET /album/lista [36m304[0m 216.623 ms - -[0m
+2025-07-29 21:16:33 [INFO]: [2025-07-30T02:16:33.250Z] GET /album/lista
+2025-07-29 21:16:33 [INFO]: [0mGET /album/lista [36m304[0m 221.524 ms - -[0m
+2025-07-29 21:16:34 [INFO]: [2025-07-30T02:16:34.726Z] GET /grupo/lista
+2025-07-29 21:16:35 [INFO]: [0mGET /grupo/lista [36m304[0m 214.183 ms - -[0m
+2025-07-29 21:16:35 [INFO]: [2025-07-30T02:16:35.047Z] GET /grupo/lista
+2025-07-29 21:16:35 [INFO]: [0mGET /grupo/lista [36m304[0m 216.963 ms - -[0m
+2025-07-29 21:16:36 [INFO]: [2025-07-30T02:16:36.291Z] GET /cancion/lista
+2025-07-29 21:16:36 [INFO]: [0mGET /cancion/lista [36m304[0m 211.786 ms - -[0m
+2025-07-29 21:16:36 [INFO]: [2025-07-30T02:16:36.614Z] GET /cancion/lista
+2025-07-29 21:16:36 [INFO]: [0mGET /cancion/lista [36m304[0m 217.431 ms - -[0m
+2025-07-29 21:16:38 [INFO]: [2025-07-30T02:16:38.104Z] GET /grupo/lista
+2025-07-29 21:16:38 [INFO]: [0mGET /grupo/lista [36m304[0m 215.119 ms - -[0m
+2025-07-29 21:16:38 [INFO]: [2025-07-30T02:16:38.426Z] GET /grupo/lista
+2025-07-29 21:16:38 [INFO]: [0mGET /grupo/lista [36m304[0m 212.895 ms - -[0m
+2025-07-29 21:16:38 [INFO]: [2025-07-30T02:16:38.746Z] GET /manager/lista
+2025-07-29 21:16:38 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:16:38 [INFO]: [2025-07-30T02:16:38.859Z] GET /manager/lista
+2025-07-29 21:16:38 [INFO]: [0mGET /manager/lista [31m500[0m 107.292 ms - 109[0m
+2025-07-29 21:16:38 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:16:39 [INFO]: [0mGET /manager/lista [31m500[0m 106.497 ms - 109[0m
+2025-07-29 21:19:14 [INFO]: [2025-07-30T02:19:14.761Z] GET /grupo/lista
+2025-07-29 21:19:14 [INFO]: [2025-07-30T02:19:14.998Z] GET /grupo/lista
+2025-07-29 21:19:15 [INFO]: [0mGET /grupo/lista [32m200[0m 231.673 ms - 300[0m
+2025-07-29 21:19:15 [INFO]: [0mGET /grupo/lista [36m304[0m 213.272 ms - -[0m
+2025-07-29 21:19:28 [INFO]: [2025-07-30T02:19:28.253Z] POST /grupo/crear
+2025-07-29 21:19:28 [INFO]: [0mPOST /grupo/crear [32m201[0m 228.820 ms - 59[0m
+2025-07-29 21:19:28 [INFO]: [2025-07-30T02:19:28.616Z] GET /grupo/lista
+2025-07-29 21:19:28 [INFO]: [0mGET /grupo/lista [32m200[0m 217.221 ms - 599[0m
+2025-07-29 21:19:37 [INFO]: [2025-07-30T02:19:37.028Z] GET /cancion/lista
+2025-07-29 21:19:37 [INFO]: [0mGET /cancion/lista [36m304[0m 215.600 ms - -[0m
+2025-07-29 21:19:37 [INFO]: [2025-07-30T02:19:37.354Z] GET /cancion/lista
+2025-07-29 21:19:37 [INFO]: [0mGET /cancion/lista [36m304[0m 218.382 ms - -[0m
+2025-07-29 21:19:38 [INFO]: [2025-07-30T02:19:38.363Z] GET /grupo/lista
+2025-07-29 21:19:38 [INFO]: [0mGET /grupo/lista [36m304[0m 213.673 ms - -[0m
+2025-07-29 21:19:38 [INFO]: [2025-07-30T02:19:38.685Z] GET /grupo/lista
+2025-07-29 21:19:39 [INFO]: [0mGET /grupo/lista [36m304[0m 214.991 ms - -[0m
+2025-07-29 21:19:39 [INFO]: [2025-07-30T02:19:39.475Z] GET /album/lista
+2025-07-29 21:19:39 [INFO]: [0mGET /album/lista [36m304[0m 214.688 ms - -[0m
+2025-07-29 21:19:39 [INFO]: [2025-07-30T02:19:39.797Z] GET /album/lista
+2025-07-29 21:19:40 [INFO]: [0mGET /album/lista [36m304[0m 214.153 ms - -[0m
+2025-07-29 21:19:40 [INFO]: [2025-07-30T02:19:40.513Z] GET /manager/lista
+2025-07-29 21:19:40 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:19:40 [INFO]: [2025-07-30T02:19:40.645Z] GET /manager/lista
+2025-07-29 21:19:40 [INFO]: [0mGET /manager/lista [31m500[0m 125.630 ms - 109[0m
+2025-07-29 21:19:40 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:19:40 [INFO]: [0mGET /manager/lista [31m500[0m 106.501 ms - 109[0m
+2025-07-29 21:22:07 [INFO]: [2025-07-30T02:22:07.728Z] GET /manager/lista
+2025-07-29 21:22:08 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:22:08 [INFO]: [0mGET /manager/lista [31m500[0m 482.668 ms - 109[0m
+2025-07-29 21:22:30 [INFO]: [2025-07-30T02:22:30.394Z] GET /manager/lista
+2025-07-29 21:22:30 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:22:30 [INFO]: [2025-07-30T02:22:30.627Z] GET /manager/lista
+2025-07-29 21:22:30 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:22:30 [INFO]: [0mGET /manager/lista [31m500[0m 229.957 ms - 109[0m
+2025-07-29 21:22:31 [INFO]: [0mGET /manager/lista [31m500[0m 199.375 ms - 109[0m
+2025-07-29 21:24:54 [INFO]: [2025-07-30T02:24:54.753Z] GET /manager/lista
+2025-07-29 21:24:54 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:24:54 [INFO]: [0mGET /manager/lista [31m500[0m 115.228 ms - 109[0m
+2025-07-29 21:25:38 [INFO]: [2025-07-30T02:25:38.718Z] GET /manager/lista
+2025-07-29 21:25:38 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:25:38 [INFO]: [0mGET /manager/lista [31m500[0m 109.803 ms - 109[0m
+2025-07-29 21:25:42 [INFO]: [2025-07-30T02:25:42.111Z] GET /manager/lista
+2025-07-29 21:25:42 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:25:42 [INFO]: [2025-07-30T02:25:42.224Z] GET /manager/lista
+2025-07-29 21:25:42 [INFO]: [0mGET /manager/lista [31m500[0m 105.933 ms - 109[0m
+2025-07-29 21:25:42 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:25:42 [INFO]: [0mGET /manager/lista [31m500[0m 107.285 ms - 109[0m
+2025-07-29 21:27:15 [INFO]: [2025-07-30T02:27:15.718Z] GET /manager/lista
+2025-07-29 21:27:15 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:27:15 [INFO]: [0mGET /manager/lista [31m500[0m 106.702 ms - 109[0m
+2025-07-29 21:27:20 [INFO]: [2025-07-30T02:27:20.485Z] GET /manager/lista
+2025-07-29 21:27:20 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:27:20 [INFO]: [2025-07-30T02:27:20.610Z] GET /manager/lista
+2025-07-29 21:27:20 [INFO]: [0mGET /manager/lista [31m500[0m 118.139 ms - 109[0m
+2025-07-29 21:27:20 [ERROR]: Error al mostrar managers: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 21:27:20 [INFO]: [0mGET /manager/lista [31m500[0m 110.473 ms - 109[0m
+2025-07-29 21:34:06 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 21:34:07 [INFO]: Base de datos conectada
+2025-07-29 21:34:08 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 21:34:08 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 21:34:09 [INFO]: Conexión establecida con la base de datos
+2025-07-29 21:34:14 [INFO]: [2025-07-30T02:34:14.003Z] GET /manager/lista
+2025-07-29 21:34:14 [INFO]: [2025-07-30T02:34:14.551Z] GET /manager/lista
+2025-07-29 21:34:14 [INFO]: [0mGET /manager/lista [32m200[0m 556.329 ms - 588[0m
+2025-07-29 21:34:16 [INFO]: [0mGET /manager/lista [36m304[0m 1313.118 ms - -[0m
+2025-07-29 21:34:31 [INFO]: [2025-07-30T02:34:31.052Z] POST /manager/crear
+2025-07-29 21:34:32 [INFO]: [0mPOST /manager/crear [32m201[0m 1045.507 ms - 55[0m
+2025-07-29 21:34:32 [INFO]: [2025-07-30T02:34:32.490Z] GET /manager/lista
+2025-07-29 21:34:33 [INFO]: [0mGET /manager/lista [32m200[0m 647.561 ms - 882[0m
+2025-07-29 21:35:00 [INFO]: Base de Datos sincronizadas
+2025-07-29 21:37:03 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 21:37:03 [INFO]: Base de datos conectada
+2025-07-29 21:37:04 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 21:37:04 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 21:37:05 [INFO]: Conexión establecida con la base de datos
+2025-07-29 21:37:10 [INFO]: [2025-07-30T02:37:10.184Z] POST /auth/login
+2025-07-29 21:37:11 [INFO]: [0mPOST /auth/login [32m200[0m 918.970 ms - 174[0m
+2025-07-29 21:37:14 [INFO]: [2025-07-30T02:37:14.478Z] GET /cancion/lista
+2025-07-29 21:37:15 [INFO]: [0mGET /cancion/lista [36m304[0m 481.138 ms - -[0m
+2025-07-29 21:37:15 [INFO]: [2025-07-30T02:37:15.264Z] GET /cancion/lista
+2025-07-29 21:37:15 [INFO]: [0mGET /cancion/lista [36m304[0m 304.716 ms - -[0m
+2025-07-29 21:37:16 [INFO]: [2025-07-30T02:37:16.436Z] GET /grupo/lista
+2025-07-29 21:37:17 [INFO]: [0mGET /grupo/lista [36m304[0m 473.773 ms - -[0m
+2025-07-29 21:37:17 [INFO]: [2025-07-30T02:37:17.312Z] GET /grupo/lista
+2025-07-29 21:37:17 [INFO]: [0mGET /grupo/lista [36m304[0m 334.800 ms - -[0m
+2025-07-29 21:37:18 [INFO]: [2025-07-30T02:37:18.704Z] GET /cancion/lista
+2025-07-29 21:37:19 [INFO]: [0mGET /cancion/lista [36m304[0m 555.318 ms - -[0m
+2025-07-29 21:37:19 [INFO]: [2025-07-30T02:37:19.562Z] GET /cancion/lista
+2025-07-29 21:37:20 [INFO]: [0mGET /cancion/lista [36m304[0m 645.962 ms - -[0m
+2025-07-29 21:37:21 [INFO]: [2025-07-30T02:37:21.566Z] GET /album/lista
+2025-07-29 21:37:22 [INFO]: [0mGET /album/lista [36m304[0m 563.202 ms - -[0m
+2025-07-29 21:37:22 [INFO]: [2025-07-30T02:37:22.328Z] GET /album/lista
+2025-07-29 21:37:23 [INFO]: [0mGET /album/lista [36m304[0m 1023.194 ms - -[0m
+2025-07-29 21:37:23 [INFO]: [2025-07-30T02:37:23.496Z] GET /manager/lista
+2025-07-29 21:37:23 [INFO]: [0mGET /manager/lista [36m304[0m 333.221 ms - -[0m
+2025-07-29 21:37:23 [INFO]: [2025-07-30T02:37:23.969Z] GET /manager/lista
+2025-07-29 21:37:24 [INFO]: [0mGET /manager/lista [36m304[0m 221.184 ms - -[0m
+2025-07-29 21:37:25 [INFO]: [2025-07-30T02:37:25.335Z] GET /evento/lista
+2025-07-29 21:37:25 [INFO]: [0mGET /evento/lista [36m304[0m 485.557 ms - -[0m
+2025-07-29 21:37:25 [INFO]: [2025-07-30T02:37:25.938Z] GET /evento/lista
+2025-07-29 21:37:26 [INFO]: [0mGET /evento/lista [36m304[0m 715.269 ms - -[0m
+2025-07-29 21:37:27 [INFO]: [2025-07-30T02:37:27.125Z] GET /manager/lista
+2025-07-29 21:37:27 [INFO]: [0mGET /manager/lista [36m304[0m 532.421 ms - -[0m
+2025-07-29 21:37:27 [INFO]: [2025-07-30T02:37:27.765Z] GET /manager/lista
+2025-07-29 21:37:28 [INFO]: [0mGET /manager/lista [36m304[0m 405.043 ms - -[0m
+2025-07-29 21:37:36 [INFO]: [2025-07-30T02:37:36.882Z] POST /manager/crear
+2025-07-29 21:37:37 [INFO]: [0mPOST /manager/crear [32m201[0m 711.844 ms - 55[0m
+2025-07-29 21:37:37 [INFO]: [2025-07-30T02:37:37.905Z] GET /manager/lista
+2025-07-29 21:37:39 [INFO]: [0mGET /manager/lista [32m200[0m 708.651 ms - -[0m
+2025-07-29 21:37:52 [INFO]: [2025-07-30T02:37:52.065Z] GET /manager/lista
+2025-07-29 21:37:52 [INFO]: [0mGET /manager/lista [36m304[0m 612.741 ms - -[0m
+2025-07-29 21:37:52 [INFO]: [2025-07-30T02:37:52.991Z] GET /manager/lista
+2025-07-29 21:37:53 [INFO]: [0mGET /manager/lista [36m304[0m 676.590 ms - -[0m
+2025-07-29 21:37:55 [INFO]: Base de Datos sincronizadas
+2025-07-29 21:39:13 [INFO]: [2025-07-30T02:39:13.902Z] GET /evento/lista
+2025-07-29 21:39:14 [INFO]: [0mGET /evento/lista [36m304[0m 348.336 ms - -[0m
+2025-07-29 21:39:14 [INFO]: [2025-07-30T02:39:14.690Z] GET /evento/lista
+2025-07-29 21:39:15 [INFO]: [0mGET /evento/lista [36m304[0m 411.601 ms - -[0m
+2025-07-29 21:39:16 [INFO]: [2025-07-30T02:39:16.380Z] GET /manager/lista
+2025-07-29 21:39:17 [INFO]: [0mGET /manager/lista [36m304[0m 539.351 ms - -[0m
+2025-07-29 21:39:17 [INFO]: [2025-07-30T02:39:17.118Z] GET /manager/lista
+2025-07-29 21:39:18 [INFO]: [0mGET /manager/lista [36m304[0m 628.868 ms - -[0m
+2025-07-29 21:39:18 [INFO]: [2025-07-30T02:39:18.781Z] GET /album/lista
+2025-07-29 21:39:19 [INFO]: [2025-07-30T02:39:19.182Z] GET /album/lista
+2025-07-29 21:39:19 [INFO]: [0mGET /album/lista [32m200[0m 393.145 ms - -[0m
+2025-07-29 21:39:20 [INFO]: [0mGET /album/lista [36m304[0m 528.754 ms - -[0m
+2025-07-29 21:39:20 [INFO]: [2025-07-30T02:39:20.811Z] GET /grupo/lista
+2025-07-29 21:39:22 [INFO]: [0mGET /grupo/lista [36m304[0m 1018.917 ms - -[0m
+2025-07-29 21:39:22 [INFO]: [2025-07-30T02:39:22.140Z] GET /grupo/lista
+2025-07-29 21:39:22 [INFO]: [0mGET /grupo/lista [36m304[0m 307.002 ms - -[0m
+2025-07-29 21:39:23 [INFO]: [2025-07-30T02:39:23.218Z] GET /cancion/lista
+2025-07-29 21:39:24 [INFO]: [0mGET /cancion/lista [36m304[0m 762.849 ms - -[0m
+2025-07-29 21:39:24 [INFO]: [2025-07-30T02:39:24.310Z] GET /cancion/lista
+2025-07-29 21:39:25 [INFO]: [0mGET /cancion/lista [36m304[0m 491.887 ms - -[0m
+2025-07-29 21:42:29 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 21:42:30 [INFO]: Base de datos conectada
+2025-07-29 21:42:31 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 21:42:31 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 21:42:31 [INFO]: Conexión establecida con la base de datos
+2025-07-29 21:42:57 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 21:42:57 [INFO]: Base de datos conectada
+2025-07-29 21:42:58 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 21:42:58 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 21:42:58 [INFO]: Conexión establecida con la base de datos
+2025-07-29 21:43:01 [WARN]: Server too busy!
+2025-07-29 21:43:01 [INFO]: [0mGET /cancion/lista [31m503[0m 11.314 ms - 52[0m
+2025-07-29 21:43:01 [WARN]: Server too busy!
+2025-07-29 21:43:01 [INFO]: [0mGET /cancion/lista [31m503[0m 3.800 ms - 52[0m
+2025-07-29 21:43:07 [INFO]: [2025-07-30T02:43:07.982Z] GET /cancion/lista
+2025-07-29 21:43:08 [INFO]: [2025-07-30T02:43:08.443Z] GET /cancion/lista
+2025-07-29 21:43:08 [INFO]: [0mGET /cancion/lista [32m200[0m 475.921 ms - 321[0m
+2025-07-29 21:43:09 [INFO]: [0mGET /cancion/lista [36m304[0m 440.929 ms - -[0m
+2025-07-29 21:43:09 [INFO]: [2025-07-30T02:43:09.770Z] GET /cancion/lista
+2025-07-29 21:43:10 [INFO]: [0mGET /cancion/lista [36m304[0m 331.921 ms - -[0m
+2025-07-29 21:43:10 [INFO]: [2025-07-30T02:43:10.419Z] GET /cancion/lista
+2025-07-29 21:43:11 [INFO]: [0mGET /cancion/lista [0m-[0m - ms - -[0m
+2025-07-29 21:43:11 [INFO]: [2025-07-30T02:43:11.161Z] GET /grupo/lista
+2025-07-29 21:43:11 [INFO]: [0mGET /grupo/lista [36m304[0m 376.592 ms - -[0m
+2025-07-29 21:43:11 [INFO]: [2025-07-30T02:43:11.727Z] GET /grupo/lista
+2025-07-29 21:43:12 [INFO]: [0mGET /grupo/lista [36m304[0m 511.104 ms - -[0m
+2025-07-29 21:43:15 [INFO]: [2025-07-30T02:43:15.602Z] GET /manager/lista
+2025-07-29 21:43:16 [INFO]: [0mGET /manager/lista [36m304[0m 445.271 ms - -[0m
+2025-07-29 21:43:16 [INFO]: [2025-07-30T02:43:16.230Z] GET /manager/lista
+2025-07-29 21:43:16 [INFO]: [0mGET /manager/lista [36m304[0m 515.617 ms - -[0m
+2025-07-29 21:43:23 [INFO]: [2025-07-30T02:43:23.125Z] GET /manager/lista
+2025-07-29 21:43:23 [INFO]: [0mGET /manager/lista [36m304[0m 386.936 ms - -[0m
+2025-07-29 21:43:23 [INFO]: [2025-07-30T02:43:23.808Z] GET /manager/lista
+2025-07-29 21:43:24 [INFO]: [0mGET /manager/lista [36m304[0m 525.367 ms - -[0m
+2025-07-29 21:43:24 [INFO]: [2025-07-30T02:43:24.742Z] GET /evento/lista
+2025-07-29 21:43:25 [INFO]: [0mGET /evento/lista [36m304[0m 475.694 ms - -[0m
+2025-07-29 21:43:25 [INFO]: [2025-07-30T02:43:25.332Z] GET /evento/lista
+2025-07-29 21:43:25 [INFO]: [0mGET /evento/lista [0m-[0m - ms - -[0m
+2025-07-29 21:43:26 [INFO]: [2025-07-30T02:43:26.017Z] GET /album/lista
+2025-07-29 21:43:26 [INFO]: [0mGET /album/lista [36m304[0m 423.021 ms - -[0m
+2025-07-29 21:43:26 [INFO]: [2025-07-30T02:43:26.834Z] GET /album/lista
+2025-07-29 21:43:27 [INFO]: [0mGET /album/lista [36m304[0m 348.545 ms - -[0m
+2025-07-29 21:43:27 [INFO]: [2025-07-30T02:43:27.598Z] GET /grupo/lista
+2025-07-29 21:43:28 [INFO]: [0mGET /grupo/lista [36m304[0m 291.181 ms - -[0m
+2025-07-29 21:43:28 [INFO]: [2025-07-30T02:43:28.012Z] GET /grupo/lista
+2025-07-29 21:43:28 [INFO]: [0mGET /grupo/lista [36m304[0m 326.322 ms - -[0m
+2025-07-29 21:43:44 [INFO]: Base de Datos sincronizadas
+2025-07-29 21:54:42 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 21:54:43 [INFO]: Base de datos conectada
+2025-07-29 21:54:43 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 21:54:43 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 21:54:44 [INFO]: Conexión establecida con la base de datos
+2025-07-29 21:54:47 [WARN]: Server too busy!
+2025-07-29 21:54:47 [INFO]: [0mGET /cancion/lista [31m503[0m 8.059 ms - 52[0m
+2025-07-29 21:54:47 [WARN]: Server too busy!
+2025-07-29 21:54:47 [INFO]: [0mGET /cancion/lista [31m503[0m 1.009 ms - 52[0m
+2025-07-29 21:54:49 [INFO]: [2025-07-30T02:54:49.931Z] GET /cancion/lista
+2025-07-29 21:54:50 [INFO]: [2025-07-30T02:54:50.635Z] GET /cancion/lista
+2025-07-29 21:54:51 [INFO]: [0mGET /cancion/lista [32m200[0m 765.481 ms - 321[0m
+2025-07-29 21:54:51 [INFO]: [0mGET /cancion/lista [36m304[0m 508.967 ms - -[0m
+2025-07-29 21:54:52 [INFO]: [2025-07-30T02:54:52.768Z] GET /grupo/lista
+2025-07-29 21:54:53 [INFO]: [0mGET /grupo/lista [36m304[0m 257.477 ms - -[0m
+2025-07-29 21:54:53 [INFO]: [2025-07-30T02:54:53.175Z] GET /grupo/lista
+2025-07-29 21:54:53 [INFO]: [0mGET /grupo/lista [36m304[0m 411.869 ms - -[0m
+2025-07-29 21:54:54 [INFO]: [2025-07-30T02:54:54.161Z] GET /album/lista
+2025-07-29 21:54:55 [INFO]: [2025-07-30T02:54:55.129Z] GET /album/lista
+2025-07-29 21:54:55 [INFO]: [0mGET /album/lista [32m200[0m 961.885 ms - -[0m
+2025-07-29 21:54:56 [INFO]: [0mGET /album/lista [36m304[0m 517.078 ms - -[0m
+2025-07-29 21:54:56 [INFO]: [2025-07-30T02:54:56.830Z] GET /manager/lista
+2025-07-29 21:54:57 [INFO]: [0mGET /manager/lista [36m304[0m 318.342 ms - -[0m
+2025-07-29 21:54:57 [INFO]: [2025-07-30T02:54:57.262Z] GET /manager/lista
+2025-07-29 21:54:57 [INFO]: [0mGET /manager/lista [36m304[0m 650.191 ms - -[0m
+2025-07-29 21:54:58 [INFO]: [2025-07-30T02:54:58.073Z] GET /evento/lista
+2025-07-29 21:54:58 [INFO]: [2025-07-30T02:54:58.363Z] GET /evento/lista
+2025-07-29 21:54:58 [INFO]: [0mGET /evento/lista [32m200[0m 285.621 ms - 452[0m
+2025-07-29 21:54:58 [INFO]: [0mGET /evento/lista [36m304[0m 281.783 ms - -[0m
+2025-07-29 21:54:59 [INFO]: [2025-07-30T02:54:59.695Z] GET /grupo/lista
+2025-07-29 21:55:00 [INFO]: [0mGET /grupo/lista [36m304[0m 383.658 ms - -[0m
+2025-07-29 21:55:00 [INFO]: [2025-07-30T02:55:00.366Z] GET /grupo/lista
+2025-07-29 21:55:01 [INFO]: [0mGET /grupo/lista [36m304[0m 444.605 ms - -[0m
+2025-07-29 21:55:30 [INFO]: Base de Datos sincronizadas
+2025-07-29 21:56:12 [INFO]: [2025-07-30T02:56:12.088Z] POST /grupo/crear
+2025-07-29 21:56:12 [INFO]: [0mPOST /grupo/crear [32m201[0m 434.879 ms - 59[0m
+2025-07-29 21:56:12 [INFO]: [2025-07-30T02:56:12.649Z] GET /grupo/lista
+2025-07-29 21:56:12 [INFO]: [0mGET /grupo/lista [32m200[0m 216.627 ms - 897[0m
+2025-07-29 21:58:18 [INFO]: [2025-07-30T02:58:18.724Z] GET /grupo/lista
+2025-07-29 21:58:19 [INFO]: [0mGET /grupo/lista [36m304[0m 214.147 ms - -[0m
+2025-07-29 21:58:19 [INFO]: [2025-07-30T02:58:19.734Z] GET /grupo/lista
+2025-07-29 21:58:20 [INFO]: [0mGET /grupo/lista [36m304[0m 213.633 ms - -[0m
+2025-07-29 21:58:28 [INFO]: [2025-07-30T02:58:28.115Z] GET /cancion/lista
+2025-07-29 21:58:28 [INFO]: [0mGET /cancion/lista [36m304[0m 219.024 ms - -[0m
+2025-07-29 21:58:28 [INFO]: [2025-07-30T02:58:28.440Z] GET /cancion/lista
+2025-07-29 21:58:28 [INFO]: [0mGET /cancion/lista [36m304[0m 225.719 ms - -[0m
+2025-07-29 21:58:31 [INFO]: [2025-07-30T02:58:31.347Z] GET /grupo/lista
+2025-07-29 21:58:31 [INFO]: [0mGET /grupo/lista [36m304[0m 218.366 ms - -[0m
+2025-07-29 21:58:31 [INFO]: [2025-07-30T02:58:31.678Z] GET /grupo/lista
+2025-07-29 21:58:32 [INFO]: [0mGET /grupo/lista [36m304[0m 221.842 ms - -[0m
+2025-07-29 21:58:32 [INFO]: [2025-07-30T02:58:32.361Z] GET /album/lista
+2025-07-29 21:58:32 [INFO]: [0mGET /album/lista [36m304[0m 217.277 ms - -[0m
+2025-07-29 21:58:32 [INFO]: [2025-07-30T02:58:32.716Z] GET /album/lista
+2025-07-29 21:58:33 [INFO]: [0mGET /album/lista [36m304[0m 687.142 ms - -[0m
+2025-07-29 21:58:41 [INFO]: [2025-07-30T02:58:41.036Z] GET /album/lista
+2025-07-29 21:58:42 [INFO]: [0mGET /album/lista [36m304[0m 1332.957 ms - -[0m
+2025-07-29 21:58:42 [INFO]: [2025-07-30T02:58:42.704Z] GET /album/lista
+2025-07-29 21:58:43 [INFO]: [0mGET /album/lista [36m304[0m 255.964 ms - -[0m
+2025-07-29 22:02:20 [INFO]: [2025-07-30T03:02:20.761Z] GET /album/lista
+2025-07-29 22:02:21 [INFO]: [0mGET /album/lista [36m304[0m 697.620 ms - -[0m
+2025-07-29 22:02:42 [INFO]: [2025-07-30T03:02:42.874Z] POST /album/crear
+2025-07-29 22:02:44 [INFO]: [0mPOST /album/crear [32m201[0m 713.152 ms - 77[0m
+2025-07-29 22:02:44 [INFO]: [2025-07-30T03:02:44.077Z] GET /album/lista
+2025-07-29 22:02:44 [INFO]: [0mGET /album/lista [32m200[0m 650.559 ms - -[0m
+2025-07-29 22:03:58 [INFO]: [2025-07-30T03:03:58.239Z] GET /album/lista
+2025-07-29 22:03:58 [INFO]: [0mGET /album/lista [36m304[0m 525.295 ms - -[0m
+2025-07-29 22:03:58 [INFO]: [2025-07-30T03:03:58.977Z] GET /album/lista
+2025-07-29 22:03:59 [INFO]: [0mGET /album/lista [36m304[0m 500.817 ms - -[0m
+2025-07-29 22:07:23 [INFO]: [2025-07-30T03:07:23.786Z] GET /album/lista
+2025-07-29 22:07:25 [INFO]: [0mGET /album/lista [36m304[0m 1342.335 ms - -[0m
+2025-07-29 22:07:31 [INFO]: [2025-07-30T03:07:31.672Z] GET /album/lista
+2025-07-29 22:07:32 [INFO]: [0mGET /album/lista [36m304[0m 395.172 ms - -[0m
+2025-07-29 22:07:32 [INFO]: [2025-07-30T03:07:32.268Z] GET /album/lista
+2025-07-29 22:07:33 [INFO]: [0mGET /album/lista [36m304[0m 521.054 ms - -[0m
+2025-07-29 22:12:27 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 22:12:28 [INFO]: Base de datos conectada
+2025-07-29 22:12:28 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 22:12:28 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 22:12:28 [INFO]: Conexión establecida con la base de datos
+2025-07-29 22:12:33 [INFO]: [2025-07-30T03:12:33.233Z] GET /album/lista
+2025-07-29 22:12:33 [ERROR]: Error al obtener álbumes: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 22:12:33 [INFO]: [2025-07-30T03:12:33.642Z] GET /album/lista
+2025-07-29 22:12:33 [INFO]: [0mGET /album/lista [31m500[0m 417.106 ms - 90[0m
+2025-07-29 22:12:33 [ERROR]: Error al obtener álbumes: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 22:12:34 [INFO]: [0mGET /album/lista [31m500[0m 302.246 ms - 90[0m
+2025-07-29 22:12:37 [INFO]: [2025-07-30T03:12:37.919Z] GET /album/lista
+2025-07-29 22:12:38 [ERROR]: Error al obtener álbumes: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 22:12:38 [INFO]: [2025-07-30T03:12:38.039Z] GET /album/lista
+2025-07-29 22:12:38 [INFO]: [0mGET /album/lista [31m500[0m 115.908 ms - 90[0m
+2025-07-29 22:12:38 [ERROR]: Error al obtener álbumes: TypeError: Cannot read properties of undefined (reading 'findOne')
+2025-07-29 22:12:38 [INFO]: [0mGET /album/lista [31m500[0m 230.847 ms - 90[0m
+2025-07-29 22:13:01 [INFO]: Base de Datos sincronizadas
+2025-07-29 22:15:15 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 22:15:15 [INFO]: Base de datos conectada
+2025-07-29 22:15:16 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 22:15:16 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 22:15:18 [INFO]: Conexión establecida con la base de datos
+2025-07-29 22:15:20 [INFO]: [2025-07-30T03:15:20.370Z] GET /album/lista
+2025-07-29 22:15:20 [INFO]: -> Iniciando obtenerAlbumes...
+2025-07-29 22:15:20 [INFO]: -> SQL Query exitosa. Se encontraron 5 álbumes.
+2025-07-29 22:15:20 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 4
+2025-07-29 22:15:20 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 5
+2025-07-29 22:15:20 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 9
+2025-07-29 22:15:20 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 10
+2025-07-29 22:15:20 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 11
+2025-07-29 22:15:20 [INFO]:    ... Detalles encontrados para 10
+2025-07-29 22:15:20 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 5
+2025-07-29 22:15:20 [INFO]:    ... Detalles encontrados para 9
+2025-07-29 22:15:20 [INFO]:    ... Detalles encontrados para 11
+2025-07-29 22:15:20 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 4
+2025-07-29 22:15:20 [INFO]: -> Combinación de datos completada exitosamente.
+2025-07-29 22:15:20 [INFO]: [2025-07-30T03:15:20.897Z] GET /album/lista
+2025-07-29 22:15:20 [INFO]: -> Iniciando obtenerAlbumes...
+2025-07-29 22:15:21 [INFO]: -> SQL Query exitosa. Se encontraron 5 álbumes.
+2025-07-29 22:15:21 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 4
+2025-07-29 22:15:21 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 5
+2025-07-29 22:15:21 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 9
+2025-07-29 22:15:21 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 10
+2025-07-29 22:15:21 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 11
+2025-07-29 22:15:21 [INFO]: [0mGET /album/lista [32m200[0m 530.100 ms - -[0m
+2025-07-29 22:15:21 [INFO]:    ... Detalles encontrados para 11
+2025-07-29 22:15:21 [INFO]:    ... Detalles encontrados para 9
+2025-07-29 22:15:21 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 5
+2025-07-29 22:15:21 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 4
+2025-07-29 22:15:22 [INFO]:    ... Detalles encontrados para 10
+2025-07-29 22:15:22 [INFO]: -> Combinación de datos completada exitosamente.
+2025-07-29 22:15:23 [INFO]: [0mGET /album/lista [36m304[0m 2024.193 ms - -[0m
+2025-07-29 22:15:26 [INFO]: [2025-07-30T03:15:26.403Z] GET /album/lista
+2025-07-29 22:15:26 [INFO]: -> Iniciando obtenerAlbumes...
+2025-07-29 22:15:26 [INFO]: -> SQL Query exitosa. Se encontraron 5 álbumes.
+2025-07-29 22:15:26 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 4
+2025-07-29 22:15:26 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 5
+2025-07-29 22:15:26 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 9
+2025-07-29 22:15:26 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 10
+2025-07-29 22:15:26 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 11
+2025-07-29 22:15:26 [INFO]:    ... Detalles encontrados para 11
+2025-07-29 22:15:26 [INFO]:    ... Detalles encontrados para 10
+2025-07-29 22:15:26 [INFO]:    ... Detalles encontrados para 9
+2025-07-29 22:15:26 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 4
+2025-07-29 22:15:26 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 5
+2025-07-29 22:15:26 [INFO]: -> Combinación de datos completada exitosamente.
+2025-07-29 22:15:26 [INFO]: [0mGET /album/lista [36m304[0m 323.863 ms - -[0m
+2025-07-29 22:15:26 [INFO]: [2025-07-30T03:15:26.844Z] GET /album/lista
+2025-07-29 22:15:26 [INFO]: -> Iniciando obtenerAlbumes...
+2025-07-29 22:15:27 [INFO]: -> SQL Query exitosa. Se encontraron 5 álbumes.
+2025-07-29 22:15:27 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 4
+2025-07-29 22:15:27 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 5
+2025-07-29 22:15:27 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 9
+2025-07-29 22:15:27 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 10
+2025-07-29 22:15:27 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 11
+2025-07-29 22:15:27 [INFO]:    ... Detalles encontrados para 11
+2025-07-29 22:15:27 [INFO]:    ... Detalles encontrados para 10
+2025-07-29 22:15:27 [INFO]:    ... Detalles encontrados para 9
+2025-07-29 22:15:27 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 5
+2025-07-29 22:15:27 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 4
+2025-07-29 22:15:27 [INFO]: -> Combinación de datos completada exitosamente.
+2025-07-29 22:15:27 [INFO]: [0mGET /album/lista [36m304[0m 552.375 ms - -[0m
+2025-07-29 22:15:39 [INFO]: [2025-07-30T03:15:39.964Z] POST /album/crear
+2025-07-29 22:15:41 [INFO]: [0mPOST /album/crear [32m201[0m 789.933 ms - 77[0m
+2025-07-29 22:15:41 [INFO]: [2025-07-30T03:15:41.177Z] GET /album/lista
+2025-07-29 22:15:41 [INFO]: -> Iniciando obtenerAlbumes...
+2025-07-29 22:15:41 [INFO]: -> SQL Query exitosa. Se encontraron 6 álbumes.
+2025-07-29 22:15:41 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 4
+2025-07-29 22:15:41 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 5
+2025-07-29 22:15:41 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 9
+2025-07-29 22:15:41 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 10
+2025-07-29 22:15:41 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 11
+2025-07-29 22:15:41 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 12
+2025-07-29 22:15:41 [INFO]:    ... Detalles encontrados para 11
+2025-07-29 22:15:41 [INFO]:    ... Detalles encontrados para 9
+2025-07-29 22:15:41 [INFO]:    ... Detalles encontrados para 10
+2025-07-29 22:15:41 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 5
+2025-07-29 22:15:42 [INFO]:    ... Detalles encontrados para 12
+2025-07-29 22:15:42 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 4
+2025-07-29 22:15:42 [INFO]: -> Combinación de datos completada exitosamente.
+2025-07-29 22:15:42 [INFO]: [0mGET /album/lista [32m200[0m 1099.166 ms - -[0m
+2025-07-29 22:16:13 [INFO]: Base de Datos sincronizadas
+2025-07-29 22:18:59 [INFO]: [2025-07-30T03:18:59.486Z] GET /cancion/lista
+2025-07-29 22:19:00 [INFO]: [0mGET /cancion/lista [36m304[0m 727.491 ms - -[0m
+2025-07-29 22:19:00 [INFO]: [2025-07-30T03:19:00.330Z] GET /cancion/lista
+2025-07-29 22:19:01 [INFO]: [0mGET /cancion/lista [36m304[0m 703.526 ms - -[0m
+2025-07-29 22:27:03 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 22:27:03 [ERROR]: Error inesperado: connect ETIMEDOUT
+2025-07-29 22:27:04 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 22:27:04 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 22:27:05 [INFO]: Conexión establecida con la base de datos
+2025-07-29 22:27:32 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 22:27:33 [INFO]: Base de datos conectada
+2025-07-29 22:27:33 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 22:27:33 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 22:27:34 [INFO]: Conexión establecida con la base de datos
+2025-07-29 22:28:19 [INFO]: Base de Datos sincronizadas
+2025-07-29 22:40:54 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 22:40:55 [INFO]: Base de datos conectada
+2025-07-29 22:40:56 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 22:40:56 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 22:40:57 [INFO]: Conexión establecida con la base de datos
+2025-07-29 22:41:35 [INFO]: Base de Datos sincronizadas
+2025-07-29 22:45:42 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 22:45:42 [ERROR]: Error inesperado: connect ETIMEDOUT
+2025-07-29 22:45:44 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 22:45:44 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 22:45:45 [INFO]: Conexión establecida con la base de datos
+2025-07-29 22:45:48 [INFO]: [2025-07-30T03:45:48.138Z] GET /album/lista
+2025-07-29 22:45:48 [INFO]: -> Iniciando obtenerAlbumes...
+2025-07-29 22:45:49 [INFO]: -> SQL Query exitosa. Se encontraron 6 álbumes.
+2025-07-29 22:45:49 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 4
+2025-07-29 22:45:49 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 5
+2025-07-29 22:45:49 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 9
+2025-07-29 22:45:49 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 10
+2025-07-29 22:45:49 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 11
+2025-07-29 22:45:49 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 12
+2025-07-29 22:45:49 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 5
+2025-07-29 22:45:49 [INFO]:    ... Detalles encontrados para 9
+2025-07-29 22:45:49 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 4
+2025-07-29 22:45:49 [INFO]:    ... Detalles encontrados para 12
+2025-07-29 22:45:50 [INFO]:    ... Detalles encontrados para 11
+2025-07-29 22:45:50 [INFO]:    ... Detalles encontrados para 10
+2025-07-29 22:45:50 [INFO]: -> Combinación de datos completada exitosamente.
+2025-07-29 22:45:50 [INFO]: [0mGET /album/lista [36m304[0m 2258.365 ms - -[0m
+2025-07-29 22:45:50 [INFO]: [2025-07-30T03:45:50.676Z] GET /album/lista
+2025-07-29 22:45:50 [INFO]: -> Iniciando obtenerAlbumes...
+2025-07-29 22:45:50 [INFO]: -> SQL Query exitosa. Se encontraron 6 álbumes.
+2025-07-29 22:45:50 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 4
+2025-07-29 22:45:50 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 5
+2025-07-29 22:45:50 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 9
+2025-07-29 22:45:50 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 10
+2025-07-29 22:45:50 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 11
+2025-07-29 22:45:50 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 12
+2025-07-29 22:45:51 [INFO]: [0mGET /album/lista [0m-[0m - ms - -[0m
+2025-07-29 22:45:51 [INFO]: [2025-07-30T03:45:51.221Z] GET /grupo/lista
+2025-07-29 22:45:51 [INFO]:    ... Detalles encontrados para 9
+2025-07-29 22:45:51 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 5
+2025-07-29 22:45:51 [INFO]:    ... Detalles encontrados para 11
+2025-07-29 22:45:51 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 4
+2025-07-29 22:45:51 [INFO]:    ... Detalles encontrados para 10
+2025-07-29 22:45:51 [INFO]: [0mGET /grupo/lista [36m304[0m 586.163 ms - -[0m
+2025-07-29 22:45:51 [INFO]: [2025-07-30T03:45:51.945Z] GET /grupo/lista
+2025-07-29 22:45:52 [INFO]:    ... Detalles encontrados para 12
+2025-07-29 22:45:52 [INFO]: -> Combinación de datos completada exitosamente.
+2025-07-29 22:45:52 [INFO]: [0mGET /grupo/lista [0m-[0m - ms - -[0m
+2025-07-29 22:45:52 [INFO]: [2025-07-30T03:45:52.814Z] GET /album/lista
+2025-07-29 22:45:52 [INFO]: -> Iniciando obtenerAlbumes...
+2025-07-29 22:45:53 [INFO]: -> SQL Query exitosa. Se encontraron 6 álbumes.
+2025-07-29 22:45:53 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 4
+2025-07-29 22:45:53 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 5
+2025-07-29 22:45:53 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 9
+2025-07-29 22:45:53 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 10
+2025-07-29 22:45:53 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 11
+2025-07-29 22:45:53 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 12
+2025-07-29 22:45:53 [INFO]:    ... Detalles encontrados para 10
+2025-07-29 22:45:53 [INFO]:    ... Detalles encontrados para 12
+2025-07-29 22:45:53 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 5
+2025-07-29 22:45:53 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 4
+2025-07-29 22:45:53 [INFO]:    ... Detalles encontrados para 9
+2025-07-29 22:45:53 [INFO]:    ... Detalles encontrados para 11
+2025-07-29 22:45:53 [INFO]: -> Combinación de datos completada exitosamente.
+2025-07-29 22:45:53 [INFO]: [2025-07-30T03:45:53.263Z] GET /album/lista
+2025-07-29 22:45:53 [INFO]: -> Iniciando obtenerAlbumes...
+2025-07-29 22:45:53 [INFO]: -> SQL Query exitosa. Se encontraron 6 álbumes.
+2025-07-29 22:45:53 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 4
+2025-07-29 22:45:53 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 5
+2025-07-29 22:45:53 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 9
+2025-07-29 22:45:53 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 10
+2025-07-29 22:45:53 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 11
+2025-07-29 22:45:53 [INFO]: -> Buscando en MongoDB detalles para el idAlbumSql: 12
+2025-07-29 22:45:53 [INFO]: [0mGET /album/lista [32m200[0m 441.260 ms - -[0m
+2025-07-29 22:45:53 [INFO]:    ... Detalles encontrados para 11
+2025-07-29 22:45:53 [INFO]:    ... Detalles encontrados para 12
+2025-07-29 22:45:53 [INFO]:    ... Detalles encontrados para 10
+2025-07-29 22:45:53 [INFO]:    ... Detalles encontrados para 9
+2025-07-29 22:45:53 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 5
+2025-07-29 22:45:53 [WARN]:    ... ¡Alerta! No se encontraron detalles en MongoDB para 4
+2025-07-29 22:45:53 [INFO]: -> Combinación de datos completada exitosamente.
+2025-07-29 22:45:54 [INFO]: [0mGET /album/lista [36m304[0m 697.750 ms - -[0m
+2025-07-29 22:45:54 [INFO]: [2025-07-30T03:45:54.513Z] GET /manager/lista
+2025-07-29 22:45:55 [INFO]: [2025-07-30T03:45:55.196Z] GET /manager/lista
+2025-07-29 22:45:55 [INFO]: [0mGET /manager/lista [32m200[0m 677.307 ms - -[0m
+2025-07-29 22:45:56 [INFO]: [0mGET /manager/lista [36m304[0m 500.585 ms - -[0m
+2025-07-29 22:45:56 [INFO]: [2025-07-30T03:45:56.356Z] GET /evento/lista
+2025-07-29 22:45:56 [INFO]: [2025-07-30T03:45:56.718Z] GET /evento/lista
+2025-07-29 22:45:57 [INFO]: [0mGET /evento/lista [32m200[0m 358.012 ms - 452[0m
+2025-07-29 22:45:57 [INFO]: [0mGET /evento/lista [36m304[0m 616.541 ms - -[0m
+2025-07-29 22:46:20 [INFO]: Base de Datos sincronizadas
+2025-07-29 23:11:16 [INFO]: [2025-07-30T04:11:16.713Z] GET /perfil/datos
+2025-07-29 23:11:16 [WARN]: 404 Not Found: /perfil/datos
+2025-07-29 23:11:16 [INFO]: [2025-07-30T04:11:16.720Z] GET /perfil/datos
+2025-07-29 23:11:16 [WARN]: 404 Not Found: /perfil/datos
+2025-07-29 23:11:16 [INFO]: [0mGET /perfil/datos [33m404[0m 2.867 ms - 62[0m
+2025-07-29 23:11:16 [INFO]: [0mGET /perfil/datos [33m404[0m 3.397 ms - 62[0m
+2025-07-29 23:11:26 [INFO]: [2025-07-30T04:11:26.222Z] GET /datos
+2025-07-29 23:11:26 [WARN]: 404 Not Found: /datos
+2025-07-29 23:11:26 [INFO]: [0mGET /datos [33m404[0m 1.639 ms - 62[0m
+2025-07-29 23:11:28 [INFO]: [2025-07-30T04:11:28.553Z] GET /ao/datos
+2025-07-29 23:11:28 [WARN]: 404 Not Found: /ao/datos
+2025-07-29 23:11:28 [INFO]: [0mGET /ao/datos [33m404[0m 2.638 ms - 62[0m
+2025-07-29 23:11:30 [INFO]: [2025-07-30T04:11:30.084Z] GET /aouth/datos
+2025-07-29 23:11:30 [WARN]: 404 Not Found: /aouth/datos
+2025-07-29 23:11:30 [INFO]: [0mGET /aouth/datos [33m404[0m 2.112 ms - 62[0m
+2025-07-29 23:11:49 [INFO]: [2025-07-30T04:11:49.715Z] GET /auth/datos
+2025-07-29 23:11:49 [WARN]: 404 Not Found: /auth/datos
+2025-07-29 23:11:49 [INFO]: [0mGET /auth/datos [33m404[0m 2.423 ms - 62[0m
+2025-07-29 23:11:57 [INFO]: [2025-07-30T04:11:57.063Z] GET /auth/datos
+2025-07-29 23:11:57 [WARN]: 404 Not Found: /auth/datos
+2025-07-29 23:11:57 [INFO]: [2025-07-30T04:11:57.070Z] GET /auth/datos
+2025-07-29 23:11:57 [WARN]: 404 Not Found: /auth/datos
+2025-07-29 23:11:57 [INFO]: [0mGET /auth/datos [33m404[0m 3.099 ms - 62[0m
+2025-07-29 23:11:57 [INFO]: [0mGET /auth/datos [33m404[0m 2.430 ms - 62[0m
+2025-07-29 23:14:35 [INFO]: [2025-07-30T04:14:35.715Z] GET /perfil/datos
+2025-07-29 23:14:35 [WARN]: 404 Not Found: /perfil/datos
+2025-07-29 23:14:35 [INFO]: [2025-07-30T04:14:35.720Z] GET /perfil/datos
+2025-07-29 23:14:35 [WARN]: 404 Not Found: /perfil/datos
+2025-07-29 23:14:36 [INFO]: [0mGET /perfil/datos [33m404[0m 2.666 ms - 62[0m
+2025-07-29 23:14:36 [INFO]: [0mGET /perfil/datos [33m404[0m 2.336 ms - 62[0m
+2025-07-29 23:14:42 [INFO]: [2025-07-30T04:14:42.701Z] GET /auth/datos
+2025-07-29 23:14:42 [WARN]: 404 Not Found: /auth/datos
+2025-07-29 23:14:42 [INFO]: [0mGET /auth/datos [33m404[0m 1.635 ms - 62[0m
+2025-07-29 23:14:46 [INFO]: [2025-07-30T04:14:46.610Z] GET /auth/datos
+2025-07-29 23:14:46 [WARN]: 404 Not Found: /auth/datos
+2025-07-29 23:14:46 [INFO]: [2025-07-30T04:14:46.644Z] GET /auth/datos
+2025-07-29 23:14:46 [WARN]: 404 Not Found: /auth/datos
+2025-07-29 23:14:46 [INFO]: [0mGET /auth/datos [33m404[0m 3.051 ms - 62[0m
+2025-07-29 23:14:46 [INFO]: [0mGET /auth/datos [33m404[0m 29.579 ms - 62[0m
+2025-07-29 23:16:08 [INFO]: [2025-07-30T04:16:08.726Z] GET /auth/datos
+2025-07-29 23:16:08 [WARN]: 404 Not Found: /auth/datos
+2025-07-29 23:16:09 [INFO]: [0mGET /auth/datos [33m404[0m 3.752 ms - 62[0m
+2025-07-29 23:16:10 [INFO]: [2025-07-30T04:16:10.975Z] GET /auth/datos
+2025-07-29 23:16:10 [WARN]: 404 Not Found: /auth/datos
+2025-07-29 23:16:10 [INFO]: [2025-07-30T04:16:10.996Z] GET /auth/datos
+2025-07-29 23:16:10 [WARN]: 404 Not Found: /auth/datos
+2025-07-29 23:16:11 [INFO]: [0mGET /auth/datos [33m404[0m 4.483 ms - 62[0m
+2025-07-29 23:16:11 [INFO]: [0mGET /auth/datos [33m404[0m 14.175 ms - 62[0m
+2025-07-29 23:30:10 [INFO]: [2025-07-30T04:30:10.737Z] GET /auth/profile
+2025-07-29 23:30:10 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:30:10 [INFO]: [2025-07-30T04:30:10.761Z] GET /
+2025-07-29 23:30:10 [INFO]: [0mGET /auth/profile [36m302[0m 11.393 ms - 23[0m
+2025-07-29 23:30:10 [INFO]: [0mGET / [32m200[0m 3.738 ms - 12[0m
+2025-07-29 23:30:26 [INFO]: [2025-07-30T04:30:26.302Z] GET /auth/profile
+2025-07-29 23:30:26 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:30:26 [INFO]: [2025-07-30T04:30:26.336Z] GET /auth/profile
+2025-07-29 23:30:26 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:30:26 [INFO]: [2025-07-30T04:30:26.349Z] GET /
+2025-07-29 23:30:26 [INFO]: [0mGET /auth/profile [36m302[0m 34.555 ms - 23[0m
+2025-07-29 23:30:26 [INFO]: [0mGET /auth/profile [36m302[0m 3.030 ms - 23[0m
+2025-07-29 23:30:26 [INFO]: [0mGET / [36m304[0m 4.314 ms - -[0m
+2025-07-29 23:30:26 [INFO]: [2025-07-30T04:30:26.758Z] GET /
+2025-07-29 23:30:26 [INFO]: [0mGET / [36m304[0m 3.303 ms - -[0m
+2025-07-29 23:31:56 [INFO]: [2025-07-30T04:31:56.711Z] GET /auth/profile
+2025-07-29 23:31:56 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:31:56 [INFO]: [2025-07-30T04:31:56.720Z] GET /auth/profile
+2025-07-29 23:31:56 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:31:56 [INFO]: [0mGET /auth/profile [36m302[0m 6.101 ms - 23[0m
+2025-07-29 23:31:56 [INFO]: [0mGET /auth/profile [36m302[0m 3.242 ms - 23[0m
+2025-07-29 23:31:56 [INFO]: [2025-07-30T04:31:56.835Z] GET /
+2025-07-29 23:31:56 [INFO]: [0mGET / [36m304[0m 101.430 ms - -[0m
+2025-07-29 23:31:57 [INFO]: [2025-07-30T04:31:57.027Z] GET /
+2025-07-29 23:31:57 [INFO]: [0mGET / [36m304[0m 96.031 ms - -[0m
+2025-07-29 23:32:00 [INFO]: [2025-07-30T04:32:00.212Z] GET /auth/profile
+2025-07-29 23:32:00 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:32:00 [INFO]: [0mGET /auth/profile [36m302[0m 95.094 ms - 23[0m
+2025-07-29 23:32:00 [INFO]: [2025-07-30T04:32:00.318Z] GET /
+2025-07-29 23:32:00 [INFO]: [2025-07-30T04:32:00.324Z] GET /auth/profile
+2025-07-29 23:32:00 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:32:00 [INFO]: [0mGET / [36m304[0m 96.969 ms - -[0m
+2025-07-29 23:32:00 [INFO]: [0mGET /auth/profile [36m302[0m 110.097 ms - 23[0m
+2025-07-29 23:32:00 [INFO]: [2025-07-30T04:32:00.510Z] GET /
+2025-07-29 23:32:00 [INFO]: [0mGET / [36m304[0m 95.393 ms - -[0m
+2025-07-29 23:34:37 [INFO]: [2025-07-30T04:34:37.811Z] GET /auth/profile
+2025-07-29 23:34:37 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:34:37 [INFO]: [0mGET /auth/profile [36m302[0m 95.651 ms - 23[0m
+2025-07-29 23:34:37 [INFO]: [2025-07-30T04:34:37.927Z] GET /
+2025-07-29 23:34:38 [INFO]: [0mGET / [36m304[0m 106.459 ms - -[0m
+2025-07-29 23:34:40 [INFO]: [2025-07-30T04:34:40.741Z] GET /auth/profile
+2025-07-29 23:34:40 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:34:40 [INFO]: [2025-07-30T04:34:40.840Z] GET /auth/profile
+2025-07-29 23:34:40 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:34:40 [INFO]: [2025-07-30T04:34:40.845Z] GET /
+2025-07-29 23:34:40 [INFO]: [0mGET /auth/profile [36m302[0m 106.365 ms - 23[0m
+2025-07-29 23:34:40 [INFO]: [0mGET /auth/profile [36m302[0m 96.936 ms - 23[0m
+2025-07-29 23:34:40 [INFO]: [0mGET / [36m304[0m 94.106 ms - -[0m
+2025-07-29 23:34:41 [INFO]: [2025-07-30T04:34:41.035Z] GET /
+2025-07-29 23:34:41 [INFO]: [0mGET / [36m304[0m 94.242 ms - -[0m
+2025-07-29 23:41:51 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 23:41:51 [INFO]: Base de datos conectada
+2025-07-29 23:41:52 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 23:41:52 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 23:41:52 [INFO]: Conexión establecida con la base de datos
+2025-07-29 23:41:57 [INFO]: [2025-07-30T04:41:57.153Z] GET /auth/profile
+2025-07-29 23:41:57 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:41:57 [INFO]: [2025-07-30T04:41:57.185Z] GET /auth/profile
+2025-07-29 23:41:57 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:41:57 [INFO]: [0mGET /auth/profile [36m302[0m 30.400 ms - 23[0m
+2025-07-29 23:41:57 [INFO]: [0mGET /auth/profile [36m302[0m 16.956 ms - 23[0m
+2025-07-29 23:41:57 [INFO]: [2025-07-30T04:41:57.631Z] GET /
+2025-07-29 23:41:57 [INFO]: [0mGET / [36m304[0m 431.163 ms - -[0m
+2025-07-29 23:41:57 [INFO]: [2025-07-30T04:41:57.852Z] GET /
+2025-07-29 23:41:57 [INFO]: [0mGET / [36m304[0m 106.184 ms - -[0m
+2025-07-29 23:42:12 [INFO]: Base de Datos sincronizadas
+2025-07-29 23:46:36 [INFO]: ⚠️  Mongoose desconectado de MongoDB
+2025-07-29 23:47:09 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 23:47:09 [INFO]: Base de datos conectada
+2025-07-29 23:47:11 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 23:47:11 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 23:47:16 [INFO]: Conexión establecida con la base de datos
+2025-07-29 23:47:41 [INFO]: [2025-07-30T04:47:41.711Z] GET /auth/profile
+2025-07-29 23:47:41 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:47:41 [INFO]: [2025-07-30T04:47:41.724Z] GET /auth/profile
+2025-07-29 23:47:41 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:47:41 [INFO]: [0mGET /auth/profile [36m302[0m 17.101 ms - 23[0m
+2025-07-29 23:47:42 [INFO]: [2025-07-30T04:47:42.097Z] GET /
+2025-07-29 23:47:42 [INFO]: [0mGET /auth/profile [36m302[0m 5.116 ms - 23[0m
+2025-07-29 23:47:42 [INFO]: [0mGET / [36m304[0m 367.322 ms - -[0m
+2025-07-29 23:47:42 [INFO]: [2025-07-30T04:47:42.284Z] GET /
+2025-07-29 23:47:42 [INFO]: [0mGET / [36m304[0m 93.085 ms - -[0m
+2025-07-29 23:47:54 [INFO]: Base de Datos sincronizadas
+2025-07-29 23:48:42 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 23:48:42 [INFO]: Base de datos conectada
+2025-07-29 23:48:43 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 23:48:43 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 23:48:43 [INFO]: Conexión establecida con la base de datos
+2025-07-29 23:49:04 [INFO]: Base de Datos sincronizadas
+2025-07-29 23:52:03 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 23:52:04 [INFO]: Base de datos conectada
+2025-07-29 23:52:04 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 23:52:04 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 23:52:04 [INFO]: Conexión establecida con la base de datos
+2025-07-29 23:52:35 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 23:52:36 [INFO]: Base de datos conectada
+2025-07-29 23:52:36 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 23:52:36 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 23:52:36 [INFO]: Conexión establecida con la base de datos
+2025-07-29 23:52:43 [INFO]: [2025-07-30T04:52:43.165Z] GET /auth/profile
+2025-07-29 23:52:43 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:52:43 [INFO]: [2025-07-30T04:52:43.181Z] GET /auth/profile
+2025-07-29 23:52:43 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:52:43 [INFO]: [0mGET /auth/profile [36m302[0m 23.723 ms - 23[0m
+2025-07-29 23:52:43 [INFO]: [0mGET /auth/profile [36m302[0m 4.694 ms - 23[0m
+2025-07-29 23:52:43 [INFO]: [2025-07-30T04:52:43.602Z] GET /
+2025-07-29 23:52:43 [INFO]: [0mGET / [36m304[0m 418.410 ms - -[0m
+2025-07-29 23:52:43 [INFO]: [2025-07-30T04:52:43.820Z] GET /
+2025-07-29 23:52:43 [INFO]: [0mGET / [36m304[0m 107.037 ms - -[0m
+2025-07-29 23:52:59 [INFO]: Base de Datos sincronizadas
+2025-07-29 23:54:50 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 23:54:51 [INFO]: Base de datos conectada
+2025-07-29 23:54:51 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 23:54:51 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 23:54:52 [INFO]: Conexión establecida con la base de datos
+2025-07-29 23:55:04 [INFO]: [2025-07-30T04:55:04.128Z] GET /auth/profile
+2025-07-29 23:55:04 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:55:04 [INFO]: [2025-07-30T04:55:04.149Z] GET /auth/profile
+2025-07-29 23:55:04 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-29 23:55:04 [INFO]: [0mGET /auth/profile [36m302[0m 30.028 ms - 23[0m
+2025-07-29 23:55:04 [INFO]: [2025-07-30T04:55:04.546Z] GET /
+2025-07-29 23:55:04 [WARN]: 404 Not Found: /
+2025-07-29 23:55:04 [INFO]: [0mGET /auth/profile [36m302[0m 8.983 ms - 23[0m
+2025-07-29 23:55:04 [INFO]: [0mGET / [33m404[0m 388.069 ms - 62[0m
+2025-07-29 23:55:04 [INFO]: [2025-07-30T04:55:04.656Z] GET /
+2025-07-29 23:55:04 [WARN]: 404 Not Found: /
+2025-07-29 23:55:04 [INFO]: [0mGET / [33m404[0m 102.553 ms - 62[0m
+2025-07-29 23:55:14 [INFO]: Base de Datos sincronizadas
+2025-07-29 23:59:35 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-29 23:59:35 [INFO]: Base de datos conectada
+2025-07-29 23:59:36 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-29 23:59:36 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 23:59:36 [INFO]: Conexión establecida con la base de datos
+2025-07-29 23:59:39 [WARN]: Server too busy!
+2025-07-29 23:59:39 [INFO]: [0mGET /auth/profile [31m503[0m 17.523 ms - 52[0m
+2025-07-29 23:59:39 [WARN]: Server too busy!
+2025-07-29 23:59:39 [INFO]: [0mGET /auth/profile [31m503[0m 2.285 ms - 52[0m
+2025-07-29 23:59:57 [INFO]: Base de Datos sincronizadas
+2025-07-30 00:02:22 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-30 00:02:23 [INFO]: Base de datos conectada
+2025-07-30 00:02:23 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-30 00:02:23 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-30 00:02:24 [INFO]: Conexión establecida con la base de datos
+2025-07-30 00:02:33 [INFO]: [2025-07-30T05:02:33.835Z] POST /auth/login
+2025-07-30 00:02:34 [INFO]: [0mPOST /auth/login [32m200[0m 571.066 ms - 174[0m
+2025-07-30 00:02:37 [INFO]: [2025-07-30T05:02:37.399Z] GET /auth/profile
+2025-07-30 00:02:37 [INFO]: [0mGET /auth/profile [32m200[0m 97.412 ms - 145[0m
+2025-07-30 00:02:37 [INFO]: [2025-07-30T05:02:37.823Z] GET /auth/profile
+2025-07-30 00:02:37 [INFO]: [0mGET /auth/profile [36m304[0m 423.863 ms - -[0m
+2025-07-30 00:02:44 [INFO]: Base de Datos sincronizadas
+2025-07-30 00:04:53 [INFO]: [2025-07-30T05:04:53.811Z] GET /auth/profile
+2025-07-30 00:04:53 [INFO]: [0mGET /auth/profile [36m304[0m 105.508 ms - -[0m
+2025-07-30 00:04:57 [INFO]: [2025-07-30T05:04:57.111Z] GET /auth/profile
+2025-07-30 00:04:57 [INFO]: [0mGET /auth/profile [36m304[0m 111.371 ms - -[0m
+2025-07-30 00:04:57 [INFO]: [2025-07-30T05:04:57.330Z] GET /auth/profile
+2025-07-30 00:04:57 [INFO]: [0mGET /auth/profile [36m304[0m 105.954 ms - -[0m
+2025-07-30 00:08:18 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-30 00:08:19 [INFO]: Base de datos conectada
+2025-07-30 00:08:19 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-30 00:08:19 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-30 00:08:19 [INFO]: Conexión establecida con la base de datos
+2025-07-30 00:08:41 [INFO]: Base de Datos sincronizadas
+2025-07-30 00:10:42 [INFO]: [2025-07-30T05:10:42.043Z] POST /auth/login
+2025-07-30 00:10:42 [INFO]: [0mPOST /auth/login [32m200[0m 548.849 ms - 174[0m
+2025-07-30 00:10:45 [INFO]: [2025-07-30T05:10:45.608Z] GET /auth/profile
+2025-07-30 00:10:45 [INFO]: [0mGET /auth/profile [32m200[0m 110.946 ms - 154[0m
+2025-07-30 00:10:46 [INFO]: [2025-07-30T05:10:46.012Z] GET /auth/profile
+2025-07-30 00:10:46 [INFO]: [0mGET /auth/profile [36m304[0m 398.939 ms - -[0m
+2025-07-30 00:10:56 [INFO]: [2025-07-30T05:10:56.049Z] GET /auth/profile
+2025-07-30 00:10:56 [INFO]: [0mGET /auth/profile [36m304[0m 102.576 ms - -[0m
+2025-07-30 00:10:58 [INFO]: [2025-07-30T05:10:58.255Z] GET /auth/profile
+2025-07-30 00:10:58 [INFO]: [0mGET /auth/profile [36m304[0m 98.034 ms - -[0m
+2025-07-30 00:10:58 [INFO]: [2025-07-30T05:10:58.453Z] GET /auth/profile
+2025-07-30 00:10:58 [INFO]: [0mGET /auth/profile [36m304[0m 99.719 ms - -[0m
+2025-07-30 00:11:37 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-30 00:11:38 [INFO]: Base de datos conectada
+2025-07-30 00:11:38 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-30 00:11:38 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-30 00:11:39 [INFO]: Conexión establecida con la base de datos
+2025-07-30 00:11:39 [WARN]: Server too busy!
+2025-07-30 00:11:39 [INFO]: [0mGET /auth/profile [31m503[0m 3.060 ms - 52[0m
+2025-07-30 00:11:39 [WARN]: Server too busy!
+2025-07-30 00:11:39 [INFO]: [0mGET /auth/profile [31m503[0m 0.738 ms - 52[0m
+2025-07-30 00:11:41 [WARN]: Server too busy!
+2025-07-30 00:11:41 [INFO]: [0mGET /auth/profile [31m503[0m 1.085 ms - 52[0m
+2025-07-30 00:11:41 [WARN]: Server too busy!
+2025-07-30 00:11:41 [INFO]: [0mGET /auth/profile [31m503[0m 0.619 ms - 52[0m
+2025-07-30 00:11:44 [INFO]: [2025-07-30T05:11:44.206Z] GET /auth/profile
+2025-07-30 00:11:44 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:11:44 [INFO]: [2025-07-30T05:11:44.215Z] GET /auth/profile
+2025-07-30 00:11:44 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:11:44 [INFO]: [0mGET /auth/profile [36m302[0m 13.148 ms - 23[0m
+2025-07-30 00:11:44 [INFO]: [0mGET /auth/profile [36m302[0m 2.547 ms - 23[0m
+2025-07-30 00:11:44 [INFO]: [2025-07-30T05:11:44.647Z] GET /
+2025-07-30 00:11:44 [INFO]: [2025-07-30T05:11:44.760Z] GET /
+2025-07-30 00:11:44 [INFO]: [0mGET / [32m200[0m 430.186 ms - 43[0m
+2025-07-30 00:11:44 [INFO]: [0mGET / [36m304[0m 110.542 ms - -[0m
+2025-07-30 00:11:48 [INFO]: [2025-07-30T05:11:48.406Z] GET /auth/profile
+2025-07-30 00:11:48 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:11:48 [INFO]: [0mGET /auth/profile [36m302[0m 110.664 ms - 23[0m
+2025-07-30 00:11:48 [INFO]: [2025-07-30T05:11:48.521Z] GET /
+2025-07-30 00:11:48 [INFO]: [2025-07-30T05:11:48.526Z] GET /auth/profile
+2025-07-30 00:11:48 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:11:48 [INFO]: [0mGET / [36m304[0m 102.641 ms - -[0m
+2025-07-30 00:11:48 [INFO]: [0mGET /auth/profile [36m302[0m 115.907 ms - 23[0m
+2025-07-30 00:11:48 [INFO]: [2025-07-30T05:11:48.718Z] GET /
+2025-07-30 00:11:48 [INFO]: [0mGET / [36m304[0m 102.214 ms - -[0m
+2025-07-30 00:12:00 [INFO]: Base de Datos sincronizadas
+2025-07-30 00:12:00 [INFO]: [2025-07-30T05:12:00.974Z] GET /auth/profile
+2025-07-30 00:12:00 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:12:01 [INFO]: [0mGET /auth/profile [36m302[0m 100.433 ms - 23[0m
+2025-07-30 00:12:01 [INFO]: [2025-07-30T05:12:01.098Z] GET /
+2025-07-30 00:12:01 [INFO]: [0mGET / [36m304[0m 112.294 ms - -[0m
+2025-07-30 00:12:04 [INFO]: [2025-07-30T05:12:04.750Z] GET /auth/profile
+2025-07-30 00:12:04 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:12:04 [INFO]: [2025-07-30T05:12:04.852Z] GET /auth/profile
+2025-07-30 00:12:04 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:12:04 [INFO]: [0mGET /auth/profile [36m302[0m 114.571 ms - 23[0m
+2025-07-30 00:12:04 [INFO]: [2025-07-30T05:12:04.869Z] GET /
+2025-07-30 00:12:04 [INFO]: [0mGET /auth/profile [36m302[0m 101.543 ms - 23[0m
+2025-07-30 00:12:04 [INFO]: [0mGET / [36m304[0m 107.787 ms - -[0m
+2025-07-30 00:12:05 [INFO]: [2025-07-30T05:12:05.086Z] GET /
+2025-07-30 00:12:05 [INFO]: [0mGET / [36m304[0m 112.648 ms - -[0m
+2025-07-30 00:12:48 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-30 00:12:48 [INFO]: Base de datos conectada
+2025-07-30 00:12:49 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-30 00:12:49 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-30 00:12:49 [INFO]: Conexión establecida con la base de datos
+2025-07-30 00:13:11 [INFO]: Base de Datos sincronizadas
+2025-07-30 00:16:15 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-30 00:16:15 [ERROR]: Error inesperado: connect ETIMEDOUT
+2025-07-30 00:16:16 [WARN]: Server too busy!
+2025-07-30 00:16:16 [INFO]: [0mGET /auth/profile [31m503[0m 4.515 ms - 52[0m
+2025-07-30 00:16:16 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-30 00:16:16 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-30 00:16:17 [INFO]: Conexión establecida con la base de datos
+2025-07-30 00:16:22 [INFO]: [2025-07-30T05:16:22.843Z] GET /auth/profile
+2025-07-30 00:16:22 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:16:22 [INFO]: [2025-07-30T05:16:22.855Z] GET /auth/profile
+2025-07-30 00:16:22 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:16:22 [INFO]: [0mGET /auth/profile [36m302[0m 19.738 ms - 23[0m
+2025-07-30 00:16:23 [INFO]: [0mGET /auth/profile [36m302[0m 4.257 ms - 23[0m
+2025-07-30 00:16:23 [INFO]: [2025-07-30T05:16:23.243Z] GET /
+2025-07-30 00:16:23 [INFO]: [0mGET / [36m304[0m 379.840 ms - -[0m
+2025-07-30 00:16:23 [INFO]: [2025-07-30T05:16:23.440Z] GET /
+2025-07-30 00:16:23 [INFO]: [0mGET / [36m304[0m 100.448 ms - -[0m
+2025-07-30 00:16:30 [INFO]: [2025-07-30T05:16:30.414Z] GET /auth/profile
+2025-07-30 00:16:30 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:16:30 [INFO]: [0mGET /auth/profile [36m302[0m 99.853 ms - 23[0m
+2025-07-30 00:16:30 [INFO]: [2025-07-30T05:16:30.517Z] GET /auth/profile
+2025-07-30 00:16:30 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:16:30 [INFO]: [2025-07-30T05:16:30.536Z] GET /
+2025-07-30 00:16:30 [INFO]: [0mGET /auth/profile [36m302[0m 98.927 ms - 23[0m
+2025-07-30 00:16:30 [INFO]: [0mGET / [36m304[0m 115.117 ms - -[0m
+2025-07-30 00:16:30 [INFO]: [2025-07-30T05:16:30.758Z] GET /
+2025-07-30 00:16:30 [INFO]: [0mGET / [36m304[0m 116.629 ms - -[0m
+2025-07-30 00:16:38 [INFO]: Base de Datos sincronizadas
+2025-07-30 00:18:11 [INFO]: [2025-07-30T05:18:11.824Z] GET /auth/profile
+2025-07-30 00:18:11 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:18:11 [INFO]: [2025-07-30T05:18:11.929Z] GET /
+2025-07-30 00:18:11 [INFO]: [0mGET /auth/profile [36m302[0m 111.645 ms - 23[0m
+2025-07-30 00:18:12 [INFO]: [0mGET / [36m304[0m 95.813 ms - -[0m
+2025-07-30 00:18:12 [INFO]: [2025-07-30T05:18:12.792Z] GET /auth/profile
+2025-07-30 00:18:12 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:18:12 [INFO]: [0mGET /auth/profile [36m302[0m 93.365 ms - 23[0m
+2025-07-30 00:18:12 [INFO]: [2025-07-30T05:18:12.907Z] GET /
+2025-07-30 00:18:13 [INFO]: [0mGET / [36m304[0m 106.598 ms - -[0m
+2025-07-30 00:18:16 [INFO]: [2025-07-30T05:18:16.509Z] GET /auth/profile
+2025-07-30 00:18:16 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:18:16 [INFO]: [2025-07-30T05:18:16.611Z] GET /auth/profile
+2025-07-30 00:18:16 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:18:16 [INFO]: [2025-07-30T05:18:16.621Z] GET /
+2025-07-30 00:18:16 [INFO]: [0mGET /auth/profile [36m302[0m 110.571 ms - 23[0m
+2025-07-30 00:18:16 [INFO]: [0mGET /auth/profile [36m302[0m 98.693 ms - 23[0m
+2025-07-30 00:18:16 [INFO]: [0mGET / [36m304[0m 100.383 ms - -[0m
+2025-07-30 00:18:16 [INFO]: [2025-07-30T05:18:16.817Z] GET /
+2025-07-30 00:18:16 [INFO]: [0mGET / [36m304[0m 98.445 ms - -[0m
+2025-07-30 00:19:30 [INFO]: [2025-07-30T05:19:30.807Z] GET /auth/profile
+2025-07-30 00:19:30 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:19:30 [INFO]: [0mGET /auth/profile [36m302[0m 96.178 ms - 23[0m
+2025-07-30 00:19:30 [INFO]: [2025-07-30T05:19:30.916Z] GET /
+2025-07-30 00:19:31 [INFO]: [0mGET / [36m304[0m 92.817 ms - -[0m
+2025-07-30 00:19:32 [INFO]: [2025-07-30T05:19:32.736Z] GET /auth/profile
+2025-07-30 00:19:32 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:19:32 [INFO]: [0mGET /auth/profile [36m302[0m 96.490 ms - 23[0m
+2025-07-30 00:19:32 [INFO]: [2025-07-30T05:19:32.833Z] GET /auth/profile
+2025-07-30 00:19:32 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:19:32 [INFO]: [2025-07-30T05:19:32.852Z] GET /
+2025-07-30 00:19:32 [INFO]: [0mGET /auth/profile [36m302[0m 97.780 ms - 23[0m
+2025-07-30 00:19:32 [INFO]: [0mGET / [36m304[0m 109.260 ms - -[0m
+2025-07-30 00:19:33 [INFO]: [2025-07-30T05:19:33.075Z] GET /
+2025-07-30 00:19:33 [INFO]: [0mGET / [36m304[0m 115.381 ms - -[0m
+2025-07-30 00:20:54 [INFO]: [2025-07-30T05:20:54.822Z] GET /auth/profile
+2025-07-30 00:20:54 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:20:54 [INFO]: [2025-07-30T05:20:54.922Z] GET /
+2025-07-30 00:20:54 [INFO]: [0mGET /auth/profile [36m302[0m 107.588 ms - 23[0m
+2025-07-30 00:20:55 [INFO]: [0mGET / [36m304[0m 93.028 ms - -[0m
+2025-07-30 00:21:01 [INFO]: [2025-07-30T05:21:01.935Z] GET /auth/profile
+2025-07-30 00:21:01 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:21:02 [INFO]: [0mGET /auth/profile [36m302[0m 97.770 ms - 23[0m
+2025-07-30 00:21:02 [INFO]: [2025-07-30T05:21:02.042Z] GET /
+2025-07-30 00:21:02 [INFO]: [2025-07-30T05:21:02.050Z] GET /auth/profile
+2025-07-30 00:21:02 [INFO]: Usuario no autenticado, redirigiendo a inicio de sesión
+2025-07-30 00:21:02 [INFO]: [0mGET / [36m304[0m 96.655 ms - -[0m
+2025-07-30 00:21:02 [INFO]: [0mGET /auth/profile [36m302[0m 113.374 ms - 23[0m
+2025-07-30 00:21:02 [INFO]: [2025-07-30T05:21:02.235Z] GET /
+2025-07-30 00:21:02 [INFO]: [0mGET / [36m304[0m 97.809 ms - -[0m
+2025-07-30 00:22:57 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-30 00:22:57 [INFO]: Base de datos conectada
+2025-07-30 00:22:58 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-30 00:22:58 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-30 00:22:58 [INFO]: Conexión establecida con la base de datos
+2025-07-30 00:23:19 [INFO]: Base de Datos sincronizadas
+2025-07-30 00:24:32 [INFO]: El servidor está escuchando en el puerto 9000
+2025-07-30 00:24:32 [INFO]: Base de datos conectada
+2025-07-30 00:24:32 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-30 00:24:32 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-30 00:24:33 [INFO]: Conexión establecida con la base de datos
+2025-07-30 00:24:41 [INFO]: [2025-07-30T05:24:41.094Z] GET /auth/profile
+2025-07-30 00:24:41 [INFO]: [2025-07-30T05:24:41.109Z] GET /auth/profile
+2025-07-30 00:24:41 [INFO]: [0mGET /auth/profile [33m401[0m 16.531 ms - 61[0m
+2025-07-30 00:24:41 [INFO]: [0mGET /auth/profile [33m401[0m 3.348 ms - 61[0m
+2025-07-30 00:24:55 [INFO]: Base de Datos sincronizadas
+2025-07-30 00:27:02 [INFO]: [2025-07-30T05:27:02.655Z] POST /auth/login
+2025-07-30 00:27:03 [INFO]: [0mPOST /auth/login [32m200[0m 674.711 ms - 174[0m
+2025-07-30 00:27:06 [INFO]: [2025-07-30T05:27:06.262Z] GET /auth/profile
+2025-07-30 00:27:06 [INFO]: [0mGET /auth/profile [32m200[0m 96.721 ms - 166[0m
+2025-07-30 00:27:06 [INFO]: [2025-07-30T05:27:06.376Z] GET /auth/profile
+2025-07-30 00:27:06 [INFO]: [0mGET /auth/profile [36m304[0m 109.692 ms - -[0m
+2025-07-30 00:27:44 [INFO]: [2025-07-30T05:27:44.819Z] GET /auth/profile
+2025-07-30 00:27:44 [INFO]: [0mGET /auth/profile [36m304[0m 119.478 ms - -[0m
+2025-07-30 00:27:46 [INFO]: [2025-07-30T05:27:46.818Z] GET /auth/profile
+2025-07-30 00:27:46 [INFO]: [0mGET /auth/profile [36m304[0m 105.984 ms - -[0m

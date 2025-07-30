@@ -20,13 +20,13 @@ authCtl.register = async (req, res, next) => {
             if (!user) {
                 return res.apiError(info.message || 'Registration failed', 400);
             }
-            
+
             // Login automático después del registro
             req.logIn(user, (err) => {
                 if (err) {
                     return res.apiError('Login after registration failed', 500);
                 }
-                
+
                 return res.apiResponse({
                     user: {
                         id: user.idUser,
@@ -35,10 +35,10 @@ authCtl.register = async (req, res, next) => {
                         username: user.userName
                     },
                     token: req.sessionID
-                }, 201, 'User registered successfully');
+                }, 200, 'Profile retrieved successfully');
             });
         })(req, res, next);
-        
+
     } catch (error) {
         console.error('Registration error:', error);
         res.apiError('Internal server error', 500);
@@ -60,12 +60,12 @@ authCtl.login = async (req, res, next) => {
             if (!user) {
                 return res.apiError(info.message || 'Invalid credentials', 401);
             }
-            
+
             req.logIn(user, (err) => {
                 if (err) {
                     return res.apiError('Login failed', 500);
                 }
-                
+
                 return res.apiResponse({
                     user: {
                         id: user.idUser,
@@ -77,7 +77,7 @@ authCtl.login = async (req, res, next) => {
                 }, 200, 'Login successful');
             });
         })(req, res, next);
-        
+
     } catch (error) {
         console.error('Login error:', error);
         res.apiError('Internal server error', 500);
@@ -105,14 +105,19 @@ authCtl.getProfile = (req, res) => {
     if (!req.isAuthenticated()) {
         return res.apiError('Not authenticated', 401);
     }
-    
+
     const user = req.user;
+
+    // 1. Eliminamos la capa extra de 'data' para ser consistentes.
+    // 2. Usamos nombres de propiedad estándar ('name', 'email', 'phone').
+    // 3. Añadimos el campo del teléfono.
     return res.apiResponse({
         user: {
             id: user.idUser,
-            name: user.nameUsers,
-            email: user.emailUser,
-            username: user.userName
+            name: user.nameUsers,   // <-- Nombre estándar
+            email: user.emailUser,  // <-- Email estándar
+            username: user.userName,
+            phone: user.phoneUser || null // <-- Teléfono añadido
         }
     }, 200, 'Profile retrieved successfully');
 };

@@ -1,73 +1,108 @@
 const orm = require('../Database/dataBase.orm');
 const sql = require('../Database/dataBase.sql');
-const mongo = require('../Database/dataBaseMongose');
-const { cifrarDatos, descifrarDatos } = require('../lib/encrypDates');
+// ¡¡CORRECCIÓN IMPORTANTE AQUÍ!! 
+// En tu primer código me mostraste 'dataBaseMongose'. Usaré ese. 
+// Si el nombre del archivo es diferente, ajústalo aquí.
+const mongo = require('../Database/dataBaseMongose'); 
+// const { cifrarDatos, descifrarDatos } = require('../lib/encrypDates');
 
 const albumCtl = {};
 
-// Obtener todos los álbumes
+// --- OBTENER ÁLBUMES (VERSIÓN ROBUSTA CON DEPURACIÓN) ---
 albumCtl.obtenerAlbumes = async (req, res) => {
-    try {
-        const [listaAlbumes] = await sql.promise().query(`
-            select * from albumes
-        `);
+    console.log("-> Iniciando obtenerAlbumes..."); // Log de inicio
 
+    try {
+        // 1. Obtenemos la lista base de álbumes desde SQL
+        const [listaAlbumes] = await sql.promise().query('SELECT * FROM albumes');
+        console.log(`-> SQL Query exitosa. Se encontraron ${listaAlbumes.length} álbumes.`);
+
+        // Si no hay álbumes, devolvemos un array vacío para evitar errores.
+        if (listaAlbumes.length === 0) {
+            console.log("-> No hay álbumes en la base de datos SQL. Devolviendo respuesta vacía.");
+            return res.apiResponse([], 200, 'No hay álbumes para mostrar');
+        }
+
+        // 2. Mapeamos y buscamos los detalles en MongoDB
         const albumesCompletos = await Promise.all(
             listaAlbumes.map(async (album) => {
-                const albumMongo = await mongo.albumModel.findOne({ 
-                    idAlbumSql: album.idAlbum 
-                });
+                // SEGURIDAD: Verificamos que el álbum y su ID no sean nulos
+                if (!album || typeof album.idAlbum === 'undefined') {
+                    console.warn("-> Se encontró un álbum inválido o sin ID en SQL:", album);
+                    return { ...album, detallesMongo: null }; // Devolvemos el álbum sin detalles
+                }
+
+                const albumIdStr = album.idAlbum.toString();
+                // DEBUG: Mostramos qué ID estamos buscando en MongoDB
+                console.log(`-> Buscando en MongoDB detalles para el idAlbumSql: ${albumIdStr}`);
+
+                const detallesMongo = await mongo.albumModel.findOne({ 
+                    idAlbumSql: albumIdStr
+                }).lean();
+
+                // DEBUG: Mostramos si se encontraron los detalles
+                if (detallesMongo) {
+                    console.log(`   ... Detalles encontrados para ${albumIdStr}`);
+                } else {
+                    console.warn(`   ... ¡Alerta! No se encontraron detalles en MongoDB para ${albumIdStr}`);
+                }
+
                 return {
                     ...album,
-                    detallesMongo: albumMongo
+                    detallesMongo: detallesMongo // Anidamos el resultado (puede ser null)
                 };
             })
         );
 
+        console.log("-> Combinación de datos completada exitosamente.");
         return res.apiResponse(albumesCompletos, 200, 'Álbumes obtenidos exitosamente');
+
     } catch (error) {
-        console.error('Error al obtener álbumes:', error);
-        return res.apiError('Error interno del servidor', 500);
+        // ¡¡ESTE ES EL LOG MÁS IMPORTANTE!!
+        // Nos dirá el error exacto y la línea donde ocurre en el backend.
+        console.error('--- !!! CRASH EN obtenerAlbumes !!! ---');
+        console.error(error); // Imprime el objeto de error completo y su stack trace
+        console.error('--------------------------------------');
+        return res.apiError('Error interno del servidor al obtener álbumes', 500);
     }
 };
 
-// Crear nuevo álbum
+// --- CREAR NUEVO ÁLBUM (VERSIÓN CORREGIDA Y ROBUSTA) ---
 albumCtl.crearAlbum = async (req, res) => {
-    try {
-        const { tituloAlbum, artista, anoLanzamiento, enlace, genero, artistaIdArtista } = req.body;
+    // Usamos los nombres del frontend
+    const { titulo, artista, año, url, genero, artistaIdArtista } = req.body;
 
-        // Crear en SQL
+    try {
+        // Guardamos en SQL
         const datosSql = {
-            tituloAlbum,
-            artista,
-            anoLanzamiento: parseInt(anoLanzamiento),
+            tituloAlbum: titulo,
+            anoLanzamiento: parseInt(año),
             estado: 'activo',
             createAlbum: new Date().toLocaleString(),
             artistaIdArtista
         };
+        const nuevoAlbumSql = await orm.album.create(datosSql);
+        const idAlbum = nuevoAlbumSql.idAlbum;
 
-        const nuevoAlbum = await orm.album.create(datosSql);
-        const idAlbum = nuevoAlbum.idAlbum;
-
-        // Crear en MongoDB
+        // Guardamos en MongoDB con TODOS los detalles
         const datosMongo = {
-            enlace,
+            idAlbumSql: idAlbum.toString(),
+            titulo,
+            artista,
+            año,
             genero,
+            url,
             imagen: req.files?.imagen?.name || null,
-            idAlbumSql: idAlbum,
             createAlbumMongo: new Date().toLocaleString()
         };
-
         await mongo.albumModel.create(datosMongo);
 
-        return res.apiResponse(
-            { idAlbum }, 
-            201, 
-            'Álbum creado exitosamente'
-        );
+        return res.apiResponse({ idAlbum }, 201, 'Álbum creado exitosamente');
 
     } catch (error) {
-        console.error('Error al crear álbum:', error);
+        console.error('--- !!! CRASH EN crearAlbum !!! ---');
+        console.error(error);
+        console.error('-----------------------------------');
         return res.apiError('Error al crear el álbum', 500);
     }
 };
