@@ -10,7 +10,6 @@ const MySQLStore = require('express-mysql-session')(session);
 const fileUpload = require("express-fileupload");
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
-const csrf = require('csurf');
 const cookieParser = require('cookie-parser');
 const compression = require('compression');
 const winston = require('winston');
@@ -32,10 +31,10 @@ app.set('port', process.env.PORT || 9000);
 
 // Habilitar CORS (configura según tus necesidades)
 app.use(cors({
-  origin: 'http://localhost:5173',
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'X-CSRF-Token'],
-  credentials: true
+    origin: 'http://localhost:5173',
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-CSRF-Token'],
+    credentials: true
 }));
 
 app.options('*', cors());
@@ -100,6 +99,10 @@ app.use(morgan(morganFormat, {
 // ==================== CONFIGURACIÓN DE SEGURIDAD MEJORADA ====================
 
 // 4. Middleware de protección contra sobrecarga del servidor
+// En app.js
+
+// 4. Middleware de protección contra sobrecarga del servidor
+/* ▼▼▼▼▼ DESHABILITADO PARA DESARROLLO ▼▼▼▼▼
 app.use((req, res, next) => {
     if (toobusy()) {
         logger.warn('Server too busy!');
@@ -108,6 +111,7 @@ app.use((req, res, next) => {
         next();
     }
 });
+▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 // 5. Configuración de Helmet
 app.use(helmet());
@@ -193,7 +197,7 @@ app.use((req, res, next) => {
             req.query[key] = escape(req.query[key]);
         }
     }
-    
+
     // Sanitizar cuerpo de la petición
     if (req.body) {
         for (const key in req.body) {
@@ -202,7 +206,7 @@ app.use((req, res, next) => {
             }
         }
     }
-    
+
     next();
 });
 
@@ -235,7 +239,7 @@ app.use((req, res, next) => {
         };
         return res.status(status).json(response);
     };
-    
+
     res.apiError = (message, status = 400, errors = null) => {
         const response = {
             success: false,
@@ -244,14 +248,16 @@ app.use((req, res, next) => {
         };
         return res.status(status).json(response);
     };
-    
+
     next();
 });
 
 app.use((req, res, next) => {
-  console.log(`[${new Date().toISOString()}] ${req.method} ${req.originalUrl}`);
-  next();
+    console.log(`[${new Date().toISOString()}] ${req.method} ${req.originalUrl}`);
+    next();
 });
+
+
 
 
 // Configurar variables globales
@@ -264,6 +270,9 @@ app.use((req, res, next) => {
 
 // ==================== RUTAS API ====================
 // Importar y configurar rutas como API
+
+app.use('/uploads', express.static(path.join(__dirname, 'public/uploads')));
+
 app.use('/pagina', require('./router/pagina.router'))
 app.use('/artista', require('./router/artista.router'))
 app.use('/cancion', require('./router/cancion.router'))
@@ -306,7 +315,7 @@ app.use((err, req, res, next) => {
         error: process.env.NODE_ENV === 'development' ? err.message : undefined,
         stack: process.env.NODE_ENV === 'development' ? err.stack : undefined
     };
-    
+
     res.status(500).json(errorResponse);
 });
 
